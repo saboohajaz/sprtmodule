@@ -1,0 +1,1696 @@
+###############################################################################
+#
+# IAR ELF Linker V7.70.1.11437/W32 for ARM                02/Aug/2017  17:59:11
+# Copyright 2007-2016 IAR Systems AB.
+#
+#    Output file  =  
+#        C:\Users\Sabooh\Documents\GitHub\sprtmodule\Projects\Multi\Applications\Contiki\Udp-receiver\EWARM\STM32L152RE-Nucleo\STM32L152RE_Nucleo\Exe\Project.out
+#    Map file     =  
+#        C:\Users\Sabooh\Documents\GitHub\sprtmodule\Projects\Multi\Applications\Contiki\Udp-receiver\EWARM\STM32L152RE-Nucleo\STM32L152RE_Nucleo\List\Project.map
+#    Command line =  
+#        C:\Users\Sabooh\Documents\GitHub\sprtmodule\Projects\Multi\Applications\Contiki\Udp-receiver\EWARM\STM32L152RE-Nucleo\STM32L152RE_Nucleo\Obj\anti-replay.o
+#        C:\Users\Sabooh\Documents\GitHub\sprtmodule\Projects\Multi\Applications\Contiki\Udp-receiver\EWARM\STM32L152RE-Nucleo\STM32L152RE_Nucleo\Obj\arg.o
+#        C:\Users\Sabooh\Documents\GitHub\sprtmodule\Projects\Multi\Applications\Contiki\Udp-receiver\EWARM\STM32L152RE-Nucleo\STM32L152RE_Nucleo\Obj\autostart.o
+#        C:\Users\Sabooh\Documents\GitHub\sprtmodule\Projects\Multi\Applications\Contiki\Udp-receiver\EWARM\STM32L152RE-Nucleo\STM32L152RE_Nucleo\Obj\button-sensor.o
+#        C:\Users\Sabooh\Documents\GitHub\sprtmodule\Projects\Multi\Applications\Contiki\Udp-receiver\EWARM\STM32L152RE-Nucleo\STM32L152RE_Nucleo\Obj\ccm-star-packetbuf.o
+#        C:\Users\Sabooh\Documents\GitHub\sprtmodule\Projects\Multi\Applications\Contiki\Udp-receiver\EWARM\STM32L152RE-Nucleo\STM32L152RE_Nucleo\Obj\clock.o
+#        C:\Users\Sabooh\Documents\GitHub\sprtmodule\Projects\Multi\Applications\Contiki\Udp-receiver\EWARM\STM32L152RE-Nucleo\STM32L152RE_Nucleo\Obj\compower.o
+#        C:\Users\Sabooh\Documents\GitHub\sprtmodule\Projects\Multi\Applications\Contiki\Udp-receiver\EWARM\STM32L152RE-Nucleo\STM32L152RE_Nucleo\Obj\console.o
+#        C:\Users\Sabooh\Documents\GitHub\sprtmodule\Projects\Multi\Applications\Contiki\Udp-receiver\EWARM\STM32L152RE-Nucleo\STM32L152RE_Nucleo\Obj\contiki-spirit1-main.o
+#        C:\Users\Sabooh\Documents\GitHub\sprtmodule\Projects\Multi\Applications\Contiki\Udp-receiver\EWARM\STM32L152RE-Nucleo\STM32L152RE_Nucleo\Obj\csma.o
+#        C:\Users\Sabooh\Documents\GitHub\sprtmodule\Projects\Multi\Applications\Contiki\Udp-receiver\EWARM\STM32L152RE-Nucleo\STM32L152RE_Nucleo\Obj\ctimer.o
+#        C:\Users\Sabooh\Documents\GitHub\sprtmodule\Projects\Multi\Applications\Contiki\Udp-receiver\EWARM\STM32L152RE-Nucleo\STM32L152RE_Nucleo\Obj\cube_hal_l1.o
+#        C:\Users\Sabooh\Documents\GitHub\sprtmodule\Projects\Multi\Applications\Contiki\Udp-receiver\EWARM\STM32L152RE-Nucleo\STM32L152RE_Nucleo\Obj\energest.o
+#        C:\Users\Sabooh\Documents\GitHub\sprtmodule\Projects\Multi\Applications\Contiki\Udp-receiver\EWARM\STM32L152RE-Nucleo\STM32L152RE_Nucleo\Obj\etimer.o
+#        C:\Users\Sabooh\Documents\GitHub\sprtmodule\Projects\Multi\Applications\Contiki\Udp-receiver\EWARM\STM32L152RE-Nucleo\STM32L152RE_Nucleo\Obj\frame802154.o
+#        C:\Users\Sabooh\Documents\GitHub\sprtmodule\Projects\Multi\Applications\Contiki\Udp-receiver\EWARM\STM32L152RE-Nucleo\STM32L152RE_Nucleo\Obj\frame802154e-ie.o
+#        C:\Users\Sabooh\Documents\GitHub\sprtmodule\Projects\Multi\Applications\Contiki\Udp-receiver\EWARM\STM32L152RE-Nucleo\STM32L152RE_Nucleo\Obj\framer-802154.o
+#        C:\Users\Sabooh\Documents\GitHub\sprtmodule\Projects\Multi\Applications\Contiki\Udp-receiver\EWARM\STM32L152RE-Nucleo\STM32L152RE_Nucleo\Obj\framer-nullmac.o
+#        C:\Users\Sabooh\Documents\GitHub\sprtmodule\Projects\Multi\Applications\Contiki\Udp-receiver\EWARM\STM32L152RE-Nucleo\STM32L152RE_Nucleo\Obj\ip64-addr.o
+#        C:\Users\Sabooh\Documents\GitHub\sprtmodule\Projects\Multi\Applications\Contiki\Udp-receiver\EWARM\STM32L152RE-Nucleo\STM32L152RE_Nucleo\Obj\leds-arch.o
+#        C:\Users\Sabooh\Documents\GitHub\sprtmodule\Projects\Multi\Applications\Contiki\Udp-receiver\EWARM\STM32L152RE-Nucleo\STM32L152RE_Nucleo\Obj\leds.o
+#        C:\Users\Sabooh\Documents\GitHub\sprtmodule\Projects\Multi\Applications\Contiki\Udp-receiver\EWARM\STM32L152RE-Nucleo\STM32L152RE_Nucleo\Obj\link-stats.o
+#        C:\Users\Sabooh\Documents\GitHub\sprtmodule\Projects\Multi\Applications\Contiki\Udp-receiver\EWARM\STM32L152RE-Nucleo\STM32L152RE_Nucleo\Obj\linkaddr.o
+#        C:\Users\Sabooh\Documents\GitHub\sprtmodule\Projects\Multi\Applications\Contiki\Udp-receiver\EWARM\STM32L152RE-Nucleo\STM32L152RE_Nucleo\Obj\list.o
+#        C:\Users\Sabooh\Documents\GitHub\sprtmodule\Projects\Multi\Applications\Contiki\Udp-receiver\EWARM\STM32L152RE-Nucleo\STM32L152RE_Nucleo\Obj\mac-sequence.o
+#        C:\Users\Sabooh\Documents\GitHub\sprtmodule\Projects\Multi\Applications\Contiki\Udp-receiver\EWARM\STM32L152RE-Nucleo\STM32L152RE_Nucleo\Obj\mac.o
+#        C:\Users\Sabooh\Documents\GitHub\sprtmodule\Projects\Multi\Applications\Contiki\Udp-receiver\EWARM\STM32L152RE-Nucleo\STM32L152RE_Nucleo\Obj\main.o
+#        C:\Users\Sabooh\Documents\GitHub\sprtmodule\Projects\Multi\Applications\Contiki\Udp-receiver\EWARM\STM32L152RE-Nucleo\STM32L152RE_Nucleo\Obj\memb.o
+#        C:\Users\Sabooh\Documents\GitHub\sprtmodule\Projects\Multi\Applications\Contiki\Udp-receiver\EWARM\STM32L152RE-Nucleo\STM32L152RE_Nucleo\Obj\mt.o
+#        C:\Users\Sabooh\Documents\GitHub\sprtmodule\Projects\Multi\Applications\Contiki\Udp-receiver\EWARM\STM32L152RE-Nucleo\STM32L152RE_Nucleo\Obj\nbr-table.o
+#        C:\Users\Sabooh\Documents\GitHub\sprtmodule\Projects\Multi\Applications\Contiki\Udp-receiver\EWARM\STM32L152RE-Nucleo\STM32L152RE_Nucleo\Obj\net-debug.o
+#        C:\Users\Sabooh\Documents\GitHub\sprtmodule\Projects\Multi\Applications\Contiki\Udp-receiver\EWARM\STM32L152RE-Nucleo\STM32L152RE_Nucleo\Obj\netstack.o
+#        C:\Users\Sabooh\Documents\GitHub\sprtmodule\Projects\Multi\Applications\Contiki\Udp-receiver\EWARM\STM32L152RE-Nucleo\STM32L152RE_Nucleo\Obj\node-id.o
+#        C:\Users\Sabooh\Documents\GitHub\sprtmodule\Projects\Multi\Applications\Contiki\Udp-receiver\EWARM\STM32L152RE-Nucleo\STM32L152RE_Nucleo\Obj\nordc.o
+#        C:\Users\Sabooh\Documents\GitHub\sprtmodule\Projects\Multi\Applications\Contiki\Udp-receiver\EWARM\STM32L152RE-Nucleo\STM32L152RE_Nucleo\Obj\nullmac.o
+#        C:\Users\Sabooh\Documents\GitHub\sprtmodule\Projects\Multi\Applications\Contiki\Udp-receiver\EWARM\STM32L152RE-Nucleo\STM32L152RE_Nucleo\Obj\nullrdc-noframer.o
+#        C:\Users\Sabooh\Documents\GitHub\sprtmodule\Projects\Multi\Applications\Contiki\Udp-receiver\EWARM\STM32L152RE-Nucleo\STM32L152RE_Nucleo\Obj\nullrdc.o
+#        C:\Users\Sabooh\Documents\GitHub\sprtmodule\Projects\Multi\Applications\Contiki\Udp-receiver\EWARM\STM32L152RE-Nucleo\STM32L152RE_Nucleo\Obj\nullsec.o
+#        C:\Users\Sabooh\Documents\GitHub\sprtmodule\Projects\Multi\Applications\Contiki\Udp-receiver\EWARM\STM32L152RE-Nucleo\STM32L152RE_Nucleo\Obj\packetbuf.o
+#        C:\Users\Sabooh\Documents\GitHub\sprtmodule\Projects\Multi\Applications\Contiki\Udp-receiver\EWARM\STM32L152RE-Nucleo\STM32L152RE_Nucleo\Obj\phase.o
+#        C:\Users\Sabooh\Documents\GitHub\sprtmodule\Projects\Multi\Applications\Contiki\Udp-receiver\EWARM\STM32L152RE-Nucleo\STM32L152RE_Nucleo\Obj\process.o
+#        C:\Users\Sabooh\Documents\GitHub\sprtmodule\Projects\Multi\Applications\Contiki\Udp-receiver\EWARM\STM32L152RE-Nucleo\STM32L152RE_Nucleo\Obj\procinit.o
+#        C:\Users\Sabooh\Documents\GitHub\sprtmodule\Projects\Multi\Applications\Contiki\Udp-receiver\EWARM\STM32L152RE-Nucleo\STM32L152RE_Nucleo\Obj\psock.o
+#        C:\Users\Sabooh\Documents\GitHub\sprtmodule\Projects\Multi\Applications\Contiki\Udp-receiver\EWARM\STM32L152RE-Nucleo\STM32L152RE_Nucleo\Obj\queuebuf.o
+#        C:\Users\Sabooh\Documents\GitHub\sprtmodule\Projects\Multi\Applications\Contiki\Udp-receiver\EWARM\STM32L152RE-Nucleo\STM32L152RE_Nucleo\Obj\radio-sensor.o
+#        C:\Users\Sabooh\Documents\GitHub\sprtmodule\Projects\Multi\Applications\Contiki\Udp-receiver\EWARM\STM32L152RE-Nucleo\STM32L152RE_Nucleo\Obj\radio_gpio.o
+#        C:\Users\Sabooh\Documents\GitHub\sprtmodule\Projects\Multi\Applications\Contiki\Udp-receiver\EWARM\STM32L152RE-Nucleo\STM32L152RE_Nucleo\Obj\radio_shield_config.o
+#        C:\Users\Sabooh\Documents\GitHub\sprtmodule\Projects\Multi\Applications\Contiki\Udp-receiver\EWARM\STM32L152RE-Nucleo\STM32L152RE_Nucleo\Obj\radio_spi.o
+#        C:\Users\Sabooh\Documents\GitHub\sprtmodule\Projects\Multi\Applications\Contiki\Udp-receiver\EWARM\STM32L152RE-Nucleo\STM32L152RE_Nucleo\Obj\random.o
+#        C:\Users\Sabooh\Documents\GitHub\sprtmodule\Projects\Multi\Applications\Contiki\Udp-receiver\EWARM\STM32L152RE-Nucleo\STM32L152RE_Nucleo\Obj\resolv.o
+#        C:\Users\Sabooh\Documents\GitHub\sprtmodule\Projects\Multi\Applications\Contiki\Udp-receiver\EWARM\STM32L152RE-Nucleo\STM32L152RE_Nucleo\Obj\rpl-dag-root.o
+#        C:\Users\Sabooh\Documents\GitHub\sprtmodule\Projects\Multi\Applications\Contiki\Udp-receiver\EWARM\STM32L152RE-Nucleo\STM32L152RE_Nucleo\Obj\rpl-dag.o
+#        C:\Users\Sabooh\Documents\GitHub\sprtmodule\Projects\Multi\Applications\Contiki\Udp-receiver\EWARM\STM32L152RE-Nucleo\STM32L152RE_Nucleo\Obj\rpl-ext-header.o
+#        C:\Users\Sabooh\Documents\GitHub\sprtmodule\Projects\Multi\Applications\Contiki\Udp-receiver\EWARM\STM32L152RE-Nucleo\STM32L152RE_Nucleo\Obj\rpl-icmp6.o
+#        C:\Users\Sabooh\Documents\GitHub\sprtmodule\Projects\Multi\Applications\Contiki\Udp-receiver\EWARM\STM32L152RE-Nucleo\STM32L152RE_Nucleo\Obj\rpl-mrhof.o
+#        C:\Users\Sabooh\Documents\GitHub\sprtmodule\Projects\Multi\Applications\Contiki\Udp-receiver\EWARM\STM32L152RE-Nucleo\STM32L152RE_Nucleo\Obj\rpl-nbr-policy.o
+#        C:\Users\Sabooh\Documents\GitHub\sprtmodule\Projects\Multi\Applications\Contiki\Udp-receiver\EWARM\STM32L152RE-Nucleo\STM32L152RE_Nucleo\Obj\rpl-ns.o
+#        C:\Users\Sabooh\Documents\GitHub\sprtmodule\Projects\Multi\Applications\Contiki\Udp-receiver\EWARM\STM32L152RE-Nucleo\STM32L152RE_Nucleo\Obj\rpl-of0.o
+#        C:\Users\Sabooh\Documents\GitHub\sprtmodule\Projects\Multi\Applications\Contiki\Udp-receiver\EWARM\STM32L152RE-Nucleo\STM32L152RE_Nucleo\Obj\rpl-timers.o
+#        C:\Users\Sabooh\Documents\GitHub\sprtmodule\Projects\Multi\Applications\Contiki\Udp-receiver\EWARM\STM32L152RE-Nucleo\STM32L152RE_Nucleo\Obj\rpl.o
+#        C:\Users\Sabooh\Documents\GitHub\sprtmodule\Projects\Multi\Applications\Contiki\Udp-receiver\EWARM\STM32L152RE-Nucleo\STM32L152RE_Nucleo\Obj\rtimer-arch.o
+#        C:\Users\Sabooh\Documents\GitHub\sprtmodule\Projects\Multi\Applications\Contiki\Udp-receiver\EWARM\STM32L152RE-Nucleo\STM32L152RE_Nucleo\Obj\rtimer.o
+#        C:\Users\Sabooh\Documents\GitHub\sprtmodule\Projects\Multi\Applications\Contiki\Udp-receiver\EWARM\STM32L152RE-Nucleo\STM32L152RE_Nucleo\Obj\sensors.o
+#        C:\Users\Sabooh\Documents\GitHub\sprtmodule\Projects\Multi\Applications\Contiki\Udp-receiver\EWARM\STM32L152RE-Nucleo\STM32L152RE_Nucleo\Obj\servreg-hack.o
+#        C:\Users\Sabooh\Documents\GitHub\sprtmodule\Projects\Multi\Applications\Contiki\Udp-receiver\EWARM\STM32L152RE-Nucleo\STM32L152RE_Nucleo\Obj\sicslowpan.o
+#        C:\Users\Sabooh\Documents\GitHub\sprtmodule\Projects\Multi\Applications\Contiki\Udp-receiver\EWARM\STM32L152RE-Nucleo\STM32L152RE_Nucleo\Obj\simple-udp.o
+#        C:\Users\Sabooh\Documents\GitHub\sprtmodule\Projects\Multi\Applications\Contiki\Udp-receiver\EWARM\STM32L152RE-Nucleo\STM32L152RE_Nucleo\Obj\slipdev.o
+#        C:\Users\Sabooh\Documents\GitHub\sprtmodule\Projects\Multi\Applications\Contiki\Udp-receiver\EWARM\STM32L152RE-Nucleo\STM32L152RE_Nucleo\Obj\spirit1-arch.o
+#        C:\Users\Sabooh\Documents\GitHub\sprtmodule\Projects\Multi\Applications\Contiki\Udp-receiver\EWARM\STM32L152RE-Nucleo\STM32L152RE_Nucleo\Obj\spirit1.o
+#        C:\Users\Sabooh\Documents\GitHub\sprtmodule\Projects\Multi\Applications\Contiki\Udp-receiver\EWARM\STM32L152RE-Nucleo\STM32L152RE_Nucleo\Obj\SPIRIT_Aes.o
+#        C:\Users\Sabooh\Documents\GitHub\sprtmodule\Projects\Multi\Applications\Contiki\Udp-receiver\EWARM\STM32L152RE-Nucleo\STM32L152RE_Nucleo\Obj\SPIRIT_Calibration.o
+#        C:\Users\Sabooh\Documents\GitHub\sprtmodule\Projects\Multi\Applications\Contiki\Udp-receiver\EWARM\STM32L152RE-Nucleo\STM32L152RE_Nucleo\Obj\SPIRIT_Commands.o
+#        C:\Users\Sabooh\Documents\GitHub\sprtmodule\Projects\Multi\Applications\Contiki\Udp-receiver\EWARM\STM32L152RE-Nucleo\STM32L152RE_Nucleo\Obj\SPIRIT_Csma.o
+#        C:\Users\Sabooh\Documents\GitHub\sprtmodule\Projects\Multi\Applications\Contiki\Udp-receiver\EWARM\STM32L152RE-Nucleo\STM32L152RE_Nucleo\Obj\SPIRIT_DirectRF.o
+#        C:\Users\Sabooh\Documents\GitHub\sprtmodule\Projects\Multi\Applications\Contiki\Udp-receiver\EWARM\STM32L152RE-Nucleo\STM32L152RE_Nucleo\Obj\SPIRIT_General.o
+#        C:\Users\Sabooh\Documents\GitHub\sprtmodule\Projects\Multi\Applications\Contiki\Udp-receiver\EWARM\STM32L152RE-Nucleo\STM32L152RE_Nucleo\Obj\SPIRIT_Gpio.o
+#        C:\Users\Sabooh\Documents\GitHub\sprtmodule\Projects\Multi\Applications\Contiki\Udp-receiver\EWARM\STM32L152RE-Nucleo\STM32L152RE_Nucleo\Obj\SPIRIT_Irq.o
+#        C:\Users\Sabooh\Documents\GitHub\sprtmodule\Projects\Multi\Applications\Contiki\Udp-receiver\EWARM\STM32L152RE-Nucleo\STM32L152RE_Nucleo\Obj\SPIRIT_LinearFifo.o
+#        C:\Users\Sabooh\Documents\GitHub\sprtmodule\Projects\Multi\Applications\Contiki\Udp-receiver\EWARM\STM32L152RE-Nucleo\STM32L152RE_Nucleo\Obj\SPIRIT_Management.o
+#        C:\Users\Sabooh\Documents\GitHub\sprtmodule\Projects\Multi\Applications\Contiki\Udp-receiver\EWARM\STM32L152RE-Nucleo\STM32L152RE_Nucleo\Obj\SPIRIT_PktBasic.o
+#        C:\Users\Sabooh\Documents\GitHub\sprtmodule\Projects\Multi\Applications\Contiki\Udp-receiver\EWARM\STM32L152RE-Nucleo\STM32L152RE_Nucleo\Obj\SPIRIT_PktCommon.o
+#        C:\Users\Sabooh\Documents\GitHub\sprtmodule\Projects\Multi\Applications\Contiki\Udp-receiver\EWARM\STM32L152RE-Nucleo\STM32L152RE_Nucleo\Obj\SPIRIT_PktMbus.o
+#        C:\Users\Sabooh\Documents\GitHub\sprtmodule\Projects\Multi\Applications\Contiki\Udp-receiver\EWARM\STM32L152RE-Nucleo\STM32L152RE_Nucleo\Obj\SPIRIT_PktStack.o
+#        C:\Users\Sabooh\Documents\GitHub\sprtmodule\Projects\Multi\Applications\Contiki\Udp-receiver\EWARM\STM32L152RE-Nucleo\STM32L152RE_Nucleo\Obj\SPIRIT_Qi.o
+#        C:\Users\Sabooh\Documents\GitHub\sprtmodule\Projects\Multi\Applications\Contiki\Udp-receiver\EWARM\STM32L152RE-Nucleo\STM32L152RE_Nucleo\Obj\SPIRIT_Radio.o
+#        C:\Users\Sabooh\Documents\GitHub\sprtmodule\Projects\Multi\Applications\Contiki\Udp-receiver\EWARM\STM32L152RE-Nucleo\STM32L152RE_Nucleo\Obj\SPIRIT_Timer.o
+#        C:\Users\Sabooh\Documents\GitHub\sprtmodule\Projects\Multi\Applications\Contiki\Udp-receiver\EWARM\STM32L152RE-Nucleo\STM32L152RE_Nucleo\Obj\SPIRIT_Types.o
+#        C:\Users\Sabooh\Documents\GitHub\sprtmodule\Projects\Multi\Applications\Contiki\Udp-receiver\EWARM\STM32L152RE-Nucleo\STM32L152RE_Nucleo\Obj\startup_stm32l152xe.o
+#        C:\Users\Sabooh\Documents\GitHub\sprtmodule\Projects\Multi\Applications\Contiki\Udp-receiver\EWARM\STM32L152RE-Nucleo\STM32L152RE_Nucleo\Obj\stimer.o
+#        C:\Users\Sabooh\Documents\GitHub\sprtmodule\Projects\Multi\Applications\Contiki\Udp-receiver\EWARM\STM32L152RE-Nucleo\STM32L152RE_Nucleo\Obj\stm32l1xx_hal.o
+#        C:\Users\Sabooh\Documents\GitHub\sprtmodule\Projects\Multi\Applications\Contiki\Udp-receiver\EWARM\STM32L152RE-Nucleo\STM32L152RE_Nucleo\Obj\stm32l1xx_hal_adc.o
+#        C:\Users\Sabooh\Documents\GitHub\sprtmodule\Projects\Multi\Applications\Contiki\Udp-receiver\EWARM\STM32L152RE-Nucleo\STM32L152RE_Nucleo\Obj\stm32l1xx_hal_adc_ex.o
+#        C:\Users\Sabooh\Documents\GitHub\sprtmodule\Projects\Multi\Applications\Contiki\Udp-receiver\EWARM\STM32L152RE-Nucleo\STM32L152RE_Nucleo\Obj\stm32l1xx_hal_cortex.o
+#        C:\Users\Sabooh\Documents\GitHub\sprtmodule\Projects\Multi\Applications\Contiki\Udp-receiver\EWARM\STM32L152RE-Nucleo\STM32L152RE_Nucleo\Obj\stm32l1xx_hal_dma.o
+#        C:\Users\Sabooh\Documents\GitHub\sprtmodule\Projects\Multi\Applications\Contiki\Udp-receiver\EWARM\STM32L152RE-Nucleo\STM32L152RE_Nucleo\Obj\stm32l1xx_hal_flash.o
+#        C:\Users\Sabooh\Documents\GitHub\sprtmodule\Projects\Multi\Applications\Contiki\Udp-receiver\EWARM\STM32L152RE-Nucleo\STM32L152RE_Nucleo\Obj\stm32l1xx_hal_flash_ex.o
+#        C:\Users\Sabooh\Documents\GitHub\sprtmodule\Projects\Multi\Applications\Contiki\Udp-receiver\EWARM\STM32L152RE-Nucleo\STM32L152RE_Nucleo\Obj\stm32l1xx_hal_gpio.o
+#        C:\Users\Sabooh\Documents\GitHub\sprtmodule\Projects\Multi\Applications\Contiki\Udp-receiver\EWARM\STM32L152RE-Nucleo\STM32L152RE_Nucleo\Obj\stm32l1xx_hal_msp.o
+#        C:\Users\Sabooh\Documents\GitHub\sprtmodule\Projects\Multi\Applications\Contiki\Udp-receiver\EWARM\STM32L152RE-Nucleo\STM32L152RE_Nucleo\Obj\stm32l1xx_hal_pwr.o
+#        C:\Users\Sabooh\Documents\GitHub\sprtmodule\Projects\Multi\Applications\Contiki\Udp-receiver\EWARM\STM32L152RE-Nucleo\STM32L152RE_Nucleo\Obj\stm32l1xx_hal_pwr_ex.o
+#        C:\Users\Sabooh\Documents\GitHub\sprtmodule\Projects\Multi\Applications\Contiki\Udp-receiver\EWARM\STM32L152RE-Nucleo\STM32L152RE_Nucleo\Obj\stm32l1xx_hal_rcc.o
+#        C:\Users\Sabooh\Documents\GitHub\sprtmodule\Projects\Multi\Applications\Contiki\Udp-receiver\EWARM\STM32L152RE-Nucleo\STM32L152RE_Nucleo\Obj\stm32l1xx_hal_rcc_ex.o
+#        C:\Users\Sabooh\Documents\GitHub\sprtmodule\Projects\Multi\Applications\Contiki\Udp-receiver\EWARM\STM32L152RE-Nucleo\STM32L152RE_Nucleo\Obj\stm32l1xx_hal_rtc.o
+#        C:\Users\Sabooh\Documents\GitHub\sprtmodule\Projects\Multi\Applications\Contiki\Udp-receiver\EWARM\STM32L152RE-Nucleo\STM32L152RE_Nucleo\Obj\stm32l1xx_hal_rtc_ex.o
+#        C:\Users\Sabooh\Documents\GitHub\sprtmodule\Projects\Multi\Applications\Contiki\Udp-receiver\EWARM\STM32L152RE-Nucleo\STM32L152RE_Nucleo\Obj\stm32l1xx_hal_spi.o
+#        C:\Users\Sabooh\Documents\GitHub\sprtmodule\Projects\Multi\Applications\Contiki\Udp-receiver\EWARM\STM32L152RE-Nucleo\STM32L152RE_Nucleo\Obj\stm32l1xx_hal_spi_ex.o
+#        C:\Users\Sabooh\Documents\GitHub\sprtmodule\Projects\Multi\Applications\Contiki\Udp-receiver\EWARM\STM32L152RE-Nucleo\STM32L152RE_Nucleo\Obj\stm32l1xx_hal_tim.o
+#        C:\Users\Sabooh\Documents\GitHub\sprtmodule\Projects\Multi\Applications\Contiki\Udp-receiver\EWARM\STM32L152RE-Nucleo\STM32L152RE_Nucleo\Obj\stm32l1xx_hal_tim_ex.o
+#        C:\Users\Sabooh\Documents\GitHub\sprtmodule\Projects\Multi\Applications\Contiki\Udp-receiver\EWARM\STM32L152RE-Nucleo\STM32L152RE_Nucleo\Obj\stm32l1xx_hal_uart.o
+#        C:\Users\Sabooh\Documents\GitHub\sprtmodule\Projects\Multi\Applications\Contiki\Udp-receiver\EWARM\STM32L152RE-Nucleo\STM32L152RE_Nucleo\Obj\stm32l1xx_hal_usart.o
+#        C:\Users\Sabooh\Documents\GitHub\sprtmodule\Projects\Multi\Applications\Contiki\Udp-receiver\EWARM\STM32L152RE-Nucleo\STM32L152RE_Nucleo\Obj\stm32l1xx_it.o
+#        C:\Users\Sabooh\Documents\GitHub\sprtmodule\Projects\Multi\Applications\Contiki\Udp-receiver\EWARM\STM32L152RE-Nucleo\STM32L152RE_Nucleo\Obj\stm32l1xx_nucleo.o
+#        C:\Users\Sabooh\Documents\GitHub\sprtmodule\Projects\Multi\Applications\Contiki\Udp-receiver\EWARM\STM32L152RE-Nucleo\STM32L152RE_Nucleo\Obj\system_stm32l1xx.o
+#        C:\Users\Sabooh\Documents\GitHub\sprtmodule\Projects\Multi\Applications\Contiki\Udp-receiver\EWARM\STM32L152RE-Nucleo\STM32L152RE_Nucleo\Obj\tcp-socket.o
+#        C:\Users\Sabooh\Documents\GitHub\sprtmodule\Projects\Multi\Applications\Contiki\Udp-receiver\EWARM\STM32L152RE-Nucleo\STM32L152RE_Nucleo\Obj\tcpip.o
+#        C:\Users\Sabooh\Documents\GitHub\sprtmodule\Projects\Multi\Applications\Contiki\Udp-receiver\EWARM\STM32L152RE-Nucleo\STM32L152RE_Nucleo\Obj\timer.o
+#        C:\Users\Sabooh\Documents\GitHub\sprtmodule\Projects\Multi\Applications\Contiki\Udp-receiver\EWARM\STM32L152RE-Nucleo\STM32L152RE_Nucleo\Obj\udp-socket.o
+#        C:\Users\Sabooh\Documents\GitHub\sprtmodule\Projects\Multi\Applications\Contiki\Udp-receiver\EWARM\STM32L152RE-Nucleo\STM32L152RE_Nucleo\Obj\uip-debug.o
+#        C:\Users\Sabooh\Documents\GitHub\sprtmodule\Projects\Multi\Applications\Contiki\Udp-receiver\EWARM\STM32L152RE-Nucleo\STM32L152RE_Nucleo\Obj\uip-ds6-nbr.o
+#        C:\Users\Sabooh\Documents\GitHub\sprtmodule\Projects\Multi\Applications\Contiki\Udp-receiver\EWARM\STM32L152RE-Nucleo\STM32L152RE_Nucleo\Obj\uip-ds6-route.o
+#        C:\Users\Sabooh\Documents\GitHub\sprtmodule\Projects\Multi\Applications\Contiki\Udp-receiver\EWARM\STM32L152RE-Nucleo\STM32L152RE_Nucleo\Obj\uip-ds6.o
+#        C:\Users\Sabooh\Documents\GitHub\sprtmodule\Projects\Multi\Applications\Contiki\Udp-receiver\EWARM\STM32L152RE-Nucleo\STM32L152RE_Nucleo\Obj\uip-icmp6.o
+#        C:\Users\Sabooh\Documents\GitHub\sprtmodule\Projects\Multi\Applications\Contiki\Udp-receiver\EWARM\STM32L152RE-Nucleo\STM32L152RE_Nucleo\Obj\uip-nameserver.o
+#        C:\Users\Sabooh\Documents\GitHub\sprtmodule\Projects\Multi\Applications\Contiki\Udp-receiver\EWARM\STM32L152RE-Nucleo\STM32L152RE_Nucleo\Obj\uip-nd6.o
+#        C:\Users\Sabooh\Documents\GitHub\sprtmodule\Projects\Multi\Applications\Contiki\Udp-receiver\EWARM\STM32L152RE-Nucleo\STM32L152RE_Nucleo\Obj\uip-packetqueue.o
+#        C:\Users\Sabooh\Documents\GitHub\sprtmodule\Projects\Multi\Applications\Contiki\Udp-receiver\EWARM\STM32L152RE-Nucleo\STM32L152RE_Nucleo\Obj\uip-split.o
+#        C:\Users\Sabooh\Documents\GitHub\sprtmodule\Projects\Multi\Applications\Contiki\Udp-receiver\EWARM\STM32L152RE-Nucleo\STM32L152RE_Nucleo\Obj\uip-udp-packet.o
+#        C:\Users\Sabooh\Documents\GitHub\sprtmodule\Projects\Multi\Applications\Contiki\Udp-receiver\EWARM\STM32L152RE-Nucleo\STM32L152RE_Nucleo\Obj\uip6.o
+#        C:\Users\Sabooh\Documents\GitHub\sprtmodule\Projects\Multi\Applications\Contiki\Udp-receiver\EWARM\STM32L152RE-Nucleo\STM32L152RE_Nucleo\Obj\uiplib.o
+#        C:\Users\Sabooh\Documents\GitHub\sprtmodule\Projects\Multi\Applications\Contiki\Udp-receiver\EWARM\STM32L152RE-Nucleo\STM32L152RE_Nucleo\Obj\unicast-receiver.o
+#        C:\Users\Sabooh\Documents\GitHub\sprtmodule\Projects\Multi\Applications\Contiki\Udp-receiver\EWARM\STM32L152RE-Nucleo\STM32L152RE_Nucleo\Obj\watchdog.o
+#        --redirect _Printf=_PrintfSmall --redirect _Scanf=_ScanfSmall -o
+#        C:\Users\Sabooh\Documents\GitHub\sprtmodule\Projects\Multi\Applications\Contiki\Udp-receiver\EWARM\STM32L152RE-Nucleo\STM32L152RE_Nucleo\Exe\Project.out
+#        --map
+#        C:\Users\Sabooh\Documents\GitHub\sprtmodule\Projects\Multi\Applications\Contiki\Udp-receiver\EWARM\STM32L152RE-Nucleo\STM32L152RE_Nucleo\List\Project.map
+#        --config "C:\Program Files (x86)\IAR Systems\Embedded Workbench
+#        7.5\arm\config\linker\ST\stm32l152xE.icf" --semihosting --entry
+#        __iar_program_start --vfe
+#
+###############################################################################
+
+*******************************************************************************
+*** RUNTIME MODEL ATTRIBUTES
+***
+
+CppFlavor                     = *
+__Heap_Handler                = Basic
+__SystemLibrary               = DLib
+__dlib_dynamic_initialization = normal
+
+
+*******************************************************************************
+*** PLACEMENT SUMMARY
+***
+
+"A0":  place at 0x08000000 { ro section .intvec };
+"P1":  place in [from 0x08000000 to 0x0807ffff] { ro };
+"P2":  place in [from 0x20000000 to 0x20013fff] { rw, block CSTACK, block HEAP };
+initialize by copy { rw };
+
+  Section             Kind        Address     Size  Object
+  -------             ----        -------     ----  ------
+"A0":                                        0x124
+  .intvec             ro code  0x08000000    0x124  startup_stm32l152xe.o [1]
+                             - 0x08000124    0x124
+
+"P1":                                      0x11df2
+  .text               ro code  0x08000124   0x19e4  uip6.o [1]
+  .text               ro code  0x08001b08    0xd70  uip-ds6.o [1]
+  .text               ro code  0x08002878    0x364  uip-icmp6.o [1]
+  .text               ro code  0x08002bdc    0x264  uip-nd6.o [1]
+  .text               ro code  0x08002e40     0x78  ABImemmove_unaligned.o [5]
+  .text               ro code  0x08002eb8     0x76  ABImemcpy_unaligned.o [5]
+  .text               ro code  0x08002f30    0x34c  rpl-ext-header.o [1]
+  .text               ro code  0x0800327c    0x51c  tcpip.o [1]
+  .text               ro code  0x08003798     0x62  memcmp_unaligned.o [5]
+  .text               ro code  0x080037fc    0x124  uip-ds6-nbr.o [1]
+  .text               ro code  0x08003920    0x4b4  uip-ds6-route.o [1]
+  .text               ro code  0x08003dd4      0x6  ABImemclr4.o [5]
+  .text               ro code  0x08003dda     0x12  random.o [1]
+  .text               ro code  0x08003dec    0x264  etimer.o [1]
+  .text               ro code  0x08004050     0x2a  stimer.o [1]
+  .text               ro code  0x0800407a    0x142  list.o [1]
+  .text               ro code  0x080041bc    0x5e0  nbr-table.o [1]
+  .text               ro code  0x0800479c      0x6  ABImemclr.o [5]
+  .text               ro code  0x080047a4   0x1334  rpl-dag.o [1]
+  .text               ro code  0x08005ad8    0x228  packetbuf.o [1]
+  .text               ro code  0x08005d00    0x474  rpl-timers.o [1]
+  .text               ro code  0x08006174    0xa40  rpl-icmp6.o [1]
+  .text               ro code  0x08006bb4    0x384  process.o [1]
+  .text               ro code  0x08006f38    0x224  rpl.o [1]
+  .text               ro code  0x0800715c    0x158  link-stats.o [1]
+  .text               ro code  0x080072b4     0x28  linkaddr.o [1]
+  .text               ro code  0x080072dc    0x102  memb.o [1]
+  .text               ro code  0x080073e0     0xe0  uip-debug.o [1]
+  .text               ro code  0x080074c0     0x32  ABImemset48.o [5]
+  .text               ro code  0x080074f4     0x20  srand.o [3]
+  .text               ro code  0x08007514     0xe0  rand.o [3]
+  .text               ro code  0x080075f4     0x48  clock.o [1]
+  .text               ro code  0x0800763c     0x3c  timer.o [1]
+  .text               ro code  0x08007678    0x154  rpl-nbr-policy.o [1]
+  .text               ro code  0x080077cc     0x5e  ABImemset.o [5]
+  .text               ro code  0x0800782c    0x18c  ctimer.o [1]
+  .text               ro code  0x080079b8     0x24  printf.o [3]
+  .text               ro code  0x080079dc      0x2  xtls.o [3]
+  .text               ro code  0x080079e0     0xe4  stm32l1xx_hal_cortex.o [1]
+  .text               ro code  0x08007ac4    0x764  stm32l1xx_hal_rcc.o [1]
+  .text               ro code  0x08008228    0x7c4  xprintfsmall.o [3]
+  .text               ro code  0x080089ec      0xc  stm32l1xx_hal.o [1]
+  .text               ro code  0x080089f8     0x28  stm32l1xx_hal.o [1]
+  .text               ro code  0x08008a20     0x20  xmbtowc.o [3]
+  .text               ro code  0x08008a40     0x16  strchr.o [5]
+  .text               ro code  0x08008a58     0x36  strlen.o [5]
+  .text               ro code  0x08008a90     0x58  memchr.o [5]
+  .text               ro code  0x08008ae8      0xa  xmbcurmax.o [3]
+  .text               ro code  0x08008af4     0xb0  xxmemxmalloc.o [3]
+  .text               ro code  0x08008ba4     0x1a  xwctomb.o [3]
+  .text               ro code  0x08008bc0     0x80  xxmemxfree.o [3]
+  .text               ro code  0x08008c40     0x14  setlocale.o [3]
+  .text               ro code  0x08008c54     0x60  xencoding_sb.o [3]
+  .text               ro code  0x08008cb4     0x2c  xgetmemchunk.o [3]
+  .text               ro code  0x08008ce0   0x14c4  sicslowpan.o [1]
+  .text               ro code  0x0800a1a4     0xd4  queuebuf.o [1]
+  .text               ro code  0x0800a278      0x6  watchdog.o [1]
+  .text               ro code  0x0800a280    0xf88  SPIRIT_Radio.o [1]
+  .text               ro code  0x0800b208    0x628  radio_spi.o [1]
+  .text               ro code  0x0800b830     0x32  I32ToFlt.o [4]
+  .text               ro code  0x0800b864     0xd8  FltMul.o [4]
+  .text               ro code  0x0800b93c     0xfc  FltDiv.o [4]
+  .text               ro code  0x0800ba38     0x44  FltToS32.o [4]
+  .text               ro code  0x0800ba7c     0x34  SPIRIT_Types.o [1]
+  .text               ro code  0x0800bab0    0x278  SPIRIT_Management.o [1]
+  .text               ro code  0x0800bd28     0x30  I32ToDbl.o [4]
+  .text               ro code  0x0800bd58    0x1a2  DblMul.o [4]
+  .text               ro code  0x0800befc     0x2c  DblToI32.o [4]
+  .text               ro code  0x0800bf28     0x24  FltToU32.o [4]
+  .text               ro code  0x0800bf4c     0xe8  DblAdd.o [4]
+  .text               ro code  0x0800c034     0x84  FltAdd.o [4]
+  .text               ro code  0x0800c0b8     0xe6  FltSub.o [4]
+  .text               ro code  0x0800c1a0     0x24  FltCmpGe.o [4]
+  .text               ro code  0x0800c1c4    0x122  SPIRIT_Calibration.o [1]
+  .text               ro code  0x0800c2e8    0x256  DblDiv.o [4]
+  .text               ro code  0x0800c540     0x44  round.o [4]
+  .text               ro code  0x0800c584     0x24  FltCmpLe.o [4]
+  .text               ro code  0x0800c5a8    0x6ae  stm32l1xx_hal_spi.o [1]
+  .text               ro code  0x0800cc56     0x82  stm32l1xx_hal_spi_ex.o [1]
+  .text               ro code  0x0800ccd8    0x1e8  stm32l1xx_hal_gpio.o [1]
+  .text               ro code  0x0800cec0    0x118  radio_gpio.o [1]
+  .text               ro code  0x0800cfd8     0x1c  SPIRIT_Commands.o [1]
+  .text               ro code  0x0800cff4    0x16c  DblSub.o [4]
+  .text               ro code  0x0800d160     0x7a  xdint.o [4]
+  .text               ro code  0x0800d1da      0x2  stm32l1xx_hal_spi.o [1]
+  .text               ro code  0x0800d1dc    0x150  stm32l1xx_it.o [1]
+  .text               ro code  0x0800d32c    0x7e8  spirit1.o [1]
+  .text               ro code  0x0800db14     0x10  stm32l1xx_hal.o [1]
+  .text               ro code  0x0800db24      0x4  energest.o [1]
+  .text               ro code  0x0800db28    0x118  sensors.o [1]
+  .text               ro code  0x0800dc40     0xe8  SPIRIT_Irq.o [1]
+  .text               ro code  0x0800dd28     0xe8  spirit1-arch.o [1]
+  .text               ro code  0x0800de10     0xa0  rtimer-arch.o [1]
+  .text               ro code  0x0800deb0    0x1fc  SPIRIT_PktBasic.o [1]
+  .text               ro code  0x0800e0ac     0xec  SPIRIT_Qi.o [1]
+  .text               ro code  0x0800e198     0x70  SPIRIT_Timer.o [1]
+  .text               ro code  0x0800e208     0x2c  SPIRIT_Gpio.o [1]
+  .text               ro code  0x0800e234     0x28  SPIRIT_LinearFifo.o [1]
+  .text               ro code  0x0800e25c    0x414  stm32l1xx_hal_tim.o [1]
+  .text               ro code  0x0800e670     0x70  SPIRIT_PktCommon.o [1]
+  .text               ro code  0x0800e6e0    0x220  stm32l1xx_hal_msp.o [1]
+  .text               ro code  0x0800e900      0x2  stm32l1xx_hal_tim.o [1]
+  .text               ro code  0x0800e904    0x400  stm32l1xx_hal_uart.o [1]
+  .text               ro code  0x0800ed04    0x1aa  cube_hal_l1.o [1]
+  .text               ro code  0x0800eeb0    0x134  stm32l1xx_hal_rcc_ex.o [1]
+  .text               ro code  0x0800efe4    0x304  stm32l1xx_hal_rtc.o [1]
+  .text               ro code  0x0800f2e8    0x111  stm32l1xx_nucleo.o [1]
+  .text               ro code  0x0800f3fc     0x1c  stm32l1xx_hal.o [1]
+  .text               ro code  0x0800f418     0x38  stm32l1xx_hal_rtc_ex.o [1]
+  .text               ro code  0x0800f450    0x56c  contiki-spirit1-main.o [1]
+  .text               ro code  0x0800f9bc      0x4  rtimer.o [1]
+  .text               ro code  0x0800f9c0     0x2c  node-id.o [1]
+  .text               ro code  0x0800f9ec     0x3c  netstack.o [1]
+  .text               ro code  0x0800fa28     0x1c  autostart.o [1]
+  .text               ro code  0x0800fa44    0x4a8  servreg-hack.o [1]
+  .text               ro code  0x0800feec     0x3c  uip-udp-packet.o [1]
+  .text               ro code  0x0800ff28    0x474  frame802154.o [1]
+  .text               ro code  0x0801039c    0x460  csma.o [1]
+  .text               ro code  0x080107fc     0x12  mac.o [1]
+  .text               ro code  0x08010810    0x27a  framer-802154.o [1]
+  .text               ro code  0x08010a8a    0x278  rpl-mrhof.o [1]
+  .text               ro code  0x08010d04    0x194  unicast-receiver.o [1]
+  .text               ro code  0x08010e98    0x130  simple-udp.o [1]
+  .text               ro code  0x08010fc8    0x138  nullrdc.o [1]
+  .text               ro code  0x08011100     0xd6  xfspos.o [3]
+  .text               ro code  0x080111d8     0xb0  fflush.o [3]
+  .text               ro code  0x08011288      0xa  xfgpos.o [3]
+  .text               ro code  0x08011292     0x4c  lseek.o [6]
+  .text               ro code  0x080112e0      0xc  errno.o [3]
+  .text               ro code  0x080112ec      0x4  xsyslock_nop.o [3]
+  .text               ro code  0x080112f0     0x40  console.o [1]
+  .text               ro code  0x08011330     0xcc  XShHandles.o [3]
+  .text               ro code  0x080113fc     0xc8  main.o [1]
+  .text               ro code  0x080114c4     0x48  stm32l1xx_hal.o [1]
+  .text               ro code  0x0801150c     0x46  radio_shield_config.o [1]
+  .text               ro code  0x08011552     0xb8  xfwprep.o [3]
+  .text               ro code  0x0801160a     0x22  fseek.o [3]
+  .text               ro code  0x0801162c     0x80  xfofind.o [3]
+  .text               ro code  0x080116ac     0x7a  fclose.o [3]
+  .text               ro code  0x08011726     0x1a  close.o [6]
+  .text               ro code  0x08011740     0x16  remove.o [6]
+  .text               ro code  0x08011756     0x78  lz77_init_single.o [5]
+  .text               ro code  0x080117d0     0x74  radio-sensor.o [1]
+  .text               ro code  0x08011844     0x64  system_stm32l1xx.o [1]
+  .text               ro code  0x080118a8     0x58  xcloseall.o [3]
+  .text               ro code  0x08011900     0x56  fputc.o [3]
+  .rodata             const    0x08011958     0x4c  spirit1.o [1]
+  .text               ro code  0x080119a4     0x4c  button-sensor.o [1]
+  .text               ro code  0x080119f0     0x40  zero_init3.o [5]
+  .text               ro code  0x08011a30     0x30  nullsec.o [1]
+  .rodata             const    0x08011a60     0x2c  unicast-receiver.o [1]
+  .rodata             const    0x08011a8c     0x28  nullrdc.o [1]
+  .text               ro code  0x08011ab4     0x28  data_init.o [5]
+  .rodata             const    0x08011adc     0x24  csma.o [1]
+  .iar.init_table     const    0x08011b00     0x20  - Linker created -
+  .text               ro code  0x08011b20     0x1a  cmain.o [5]
+  .text               ro code  0x08011b3a      0x4  low_level_init.o [3]
+  .text               ro code  0x08011b3e      0x4  exit.o [3]
+  .text               ro code  0x08011b44      0xe  cexit.o [5]
+  .text               ro code  0x08011b54     0x14  exit.o [6]
+  .rodata             const    0x08011b68     0x18  button-sensor.o [1]
+  .rodata             const    0x08011b80     0x18  nullsec.o [1]
+  .rodata             const    0x08011b98     0x18  radio-sensor.o [1]
+  .rodata             const    0x08011bb0     0x18  servreg-hack.o [1]
+  .rodata             const    0x08011bc8     0x18  sicslowpan.o [1]
+  .text               ro code  0x08011be0     0x16  xprout.o [3]
+  .text               ro code  0x08011bf8      0xc  putchar.o [3]
+  .rodata             const    0x08011c04     0x14  simple-udp.o [1]
+  .rodata             const    0x08011c18     0x10  ctimer.o [1]
+  .rodata             const    0x08011c28     0x10  tcpip.o [1]
+  .text               ro code  0x08011c38     0x10  startup_stm32l152xe.o [1]
+  .rodata             const    0x08011c48      0xc  etimer.o [1]
+  .rodata             const    0x08011c54      0xc  framer-802154.o [1]
+  .text               ro code  0x08011c60      0xc  cstartup_M.o [5]
+  .rodata             const    0x08011c6c      0x8  linkaddr.o [1]
+  .rodata             const    0x08011c74      0x8  sensors.o [1]
+  .rodata             const    0x08011c7c      0x8  system_stm32l1xx.o [1]
+  .text               ro code  0x08011c84      0x4  startup_stm32l152xe.o [1]
+  .text               ro code  0x08011c88      0x4  startup_stm32l152xe.o [1]
+  .text               ro code  0x08011c8c      0x4  startup_stm32l152xe.o [1]
+  .text               ro code  0x08011c90      0x4  startup_stm32l152xe.o [1]
+  .text               ro code  0x08011c94      0x4  startup_stm32l152xe.o [1]
+  .text               ro code  0x08011c98      0x4  startup_stm32l152xe.o [1]
+  .text               ro code  0x08011c9c      0x4  startup_stm32l152xe.o [1]
+  .text               ro code  0x08011ca0      0x4  startup_stm32l152xe.o [1]
+  .text               ro code  0x08011ca4      0x4  startup_stm32l152xe.o [1]
+  .text               ro code  0x08011ca8      0x4  startup_stm32l152xe.o [1]
+  .text               ro code  0x08011cac      0x4  startup_stm32l152xe.o [1]
+  .text               ro code  0x08011cb0      0x4  startup_stm32l152xe.o [1]
+  .text               ro code  0x08011cb4      0x4  startup_stm32l152xe.o [1]
+  .text               ro code  0x08011cb8      0x4  startup_stm32l152xe.o [1]
+  .text               ro code  0x08011cbc      0x4  startup_stm32l152xe.o [1]
+  .text               ro code  0x08011cc0      0x4  startup_stm32l152xe.o [1]
+  .text               ro code  0x08011cc4      0x4  startup_stm32l152xe.o [1]
+  .text               ro code  0x08011cc8      0x4  startup_stm32l152xe.o [1]
+  .text               ro code  0x08011ccc      0x4  startup_stm32l152xe.o [1]
+  .text               ro code  0x08011cd0      0x4  startup_stm32l152xe.o [1]
+  .text               ro code  0x08011cd4      0x4  startup_stm32l152xe.o [1]
+  .text               ro code  0x08011cd8      0x4  startup_stm32l152xe.o [1]
+  .text               ro code  0x08011cdc      0x4  startup_stm32l152xe.o [1]
+  .text               ro code  0x08011ce0      0x4  startup_stm32l152xe.o [1]
+  .text               ro code  0x08011ce4      0x4  startup_stm32l152xe.o [1]
+  .text               ro code  0x08011ce8      0x4  startup_stm32l152xe.o [1]
+  .text               ro code  0x08011cec      0x4  startup_stm32l152xe.o [1]
+  .text               ro code  0x08011cf0      0x4  startup_stm32l152xe.o [1]
+  .text               ro code  0x08011cf4      0x4  startup_stm32l152xe.o [1]
+  .text               ro code  0x08011cf8      0x4  startup_stm32l152xe.o [1]
+  .text               ro code  0x08011cfc      0x4  startup_stm32l152xe.o [1]
+  .text               ro code  0x08011d00      0x4  startup_stm32l152xe.o [1]
+  .text               ro code  0x08011d04      0x4  startup_stm32l152xe.o [1]
+  .text               ro code  0x08011d08      0x4  startup_stm32l152xe.o [1]
+  .text               ro code  0x08011d0c      0x4  startup_stm32l152xe.o [1]
+  .text               ro code  0x08011d10      0x4  startup_stm32l152xe.o [1]
+  .text               ro code  0x08011d14      0x4  startup_stm32l152xe.o [1]
+  .text               ro code  0x08011d18      0x4  startup_stm32l152xe.o [1]
+  .text               ro code  0x08011d1c      0x4  startup_stm32l152xe.o [1]
+  .text               ro code  0x08011d20      0x4  startup_stm32l152xe.o [1]
+  .text               ro code  0x08011d24      0x4  startup_stm32l152xe.o [1]
+  .text               ro code  0x08011d28      0x4  startup_stm32l152xe.o [1]
+  .text               ro code  0x08011d2c      0x4  startup_stm32l152xe.o [1]
+  .text               ro code  0x08011d30      0x4  startup_stm32l152xe.o [1]
+  .text               ro code  0x08011d34      0x4  startup_stm32l152xe.o [1]
+  .text               ro code  0x08011d38      0x4  startup_stm32l152xe.o [1]
+  .text               ro code  0x08011d3c      0x0  cstart_closeall.o [5]
+  .rodata             const    0x08011d3c      0x0  zero_init3.o [5]
+  .rodata             const    0x08011d3c      0x0  lz77_init_single.o [5]
+  Initializer bytes   const    0x08011d3c    0x1da  <for P2-1>
+                             - 0x08011f16  0x11df2
+
+"P2", part 1 of 3:                           0x933
+  P2-1                         0x20000000    0x933  <Init block>
+    .data             inited   0x20000000      0xc  contiki-spirit1-main.o [1]
+    .data             inited   0x2000000c     0x2c  csma.o [1]
+    .data             inited   0x20000038     0x18  ctimer.o [1]
+    .data             inited   0x20000050     0x18  etimer.o [1]
+    .data             inited   0x20000068     0x30  link-stats.o [1]
+    .data             inited   0x20000098     0x5c  nbr-table.o [1]
+    .data             inited   0x200000f4     0x18  queuebuf.o [1]
+    .data             inited   0x2000010c     0x14  radio_gpio.o [1]
+    .data             inited   0x20000120      0x4  radio_shield_config.o [1]
+    .data             inited   0x20000124     0x5c  radio_spi.o [1]
+    .data             inited   0x20000180     0x10  rpl-dag.o [1]
+    .data             inited   0x20000190    0x15c  rpl-dag.o [1]
+    .data             inited   0x200002ec     0x30  rpl-icmp6.o [1]
+    .data             inited   0x2000031c     0x24  rpl-mrhof.o [1]
+    .data             inited   0x20000340     0x1c  sensors.o [1]
+    .data             inited   0x2000035c     0x4c  servreg-hack.o [1]
+    .data             inited   0x200003a8     0x14  simple-udp.o [1]
+    .data             inited   0x200003bc     0x8c  spirit1.o [1]
+    .data             inited   0x20000448      0x8  SPIRIT_Management.o [1]
+    .data             inited   0x20000450      0x8  SPIRIT_Radio.o [1]
+    .data             inited   0x20000458    0x244  stm32l1xx_hal_msp.o [1]
+    .data             inited   0x2000069c      0x4  stm32l1xx_nucleo.o [1]
+    .data             inited   0x200006a0      0x4  stm32l1xx_nucleo.o [1]
+    .data             inited   0x200006a4      0x4  system_stm32l1xx.o [1]
+    .data             inited   0x200006a8     0x10  tcpip.o [1]
+    .data             inited   0x200006b8     0x10  uip-ds6-nbr.o [1]
+    .data             inited   0x200006c8      0x4  uip-ds6-nbr.o [1]
+    .data             inited   0x200006cc     0x10  uip-ds6-route.o [1]
+    .data             inited   0x200006dc     0x38  uip-ds6-route.o [1]
+    .data             inited   0x20000714     0x1c  uip-icmp6.o [1]
+    .data             inited   0x20000730      0xc  uip-nd6.o [1]
+    .data             inited   0x2000073c     0x10  unicast-receiver.o [1]
+    .data             inited   0x2000074c     0x40  xfiles.o [3]
+    .data             inited   0x2000078c     0x40  xfiles.o [3]
+    .data             inited   0x200007cc     0x40  xfiles.o [3]
+    .data             inited   0x2000080c     0x20  xfiles.o [3]
+    __DLIB_PERTHREAD  inited   0x2000082c     0x8c  rand.o [3]
+    __DLIB_PERTHREAD  inited   0x200008b8     0x74  setlocale.o [3]
+    __DLIB_PERTHREAD  inited   0x2000092c      0x4  errno.o [3]
+    .data             inited   0x20000930      0x2  frame802154.o [1]
+    .data             inited   0x20000932      0x1  rpl-icmp6.o [1]
+                             - 0x20000933    0x933
+
+"P2", part 2 of 3:                          0x2000
+  CSTACK                       0x20000938   0x1000  <Block>
+    CSTACK            uninit   0x20000938   0x1000  <Block tail>
+  HEAP                         0x20001938   0x1000  <Block>
+    HEAP              uninit   0x20001938   0x1000  <Block tail>
+                             - 0x20002938   0x2000
+
+"P2", part 3 of 3:                          0x3370
+  .bss                zero     0x20002938    0xb00  queuebuf.o [1]
+  .bss                zero     0x20003438    0x78c  uip6.o [1]
+  .bss                zero     0x20003bc4    0x6f0  sicslowpan.o [1]
+  .bss                zero     0x200042b4    0x514  simple-udp.o [1]
+  .bss                zero     0x200047c8    0x4b0  uip-ds6-route.o [1]
+  .bss                zero     0x20004c78    0x200  servreg-hack.o [1]
+  .bss                zero     0x20004e78    0x19c  uip-ds6.o [1]
+  .bss                zero     0x20005014    0x168  uip-ds6-nbr.o [1]
+  .bss                zero     0x2000517c     0xf0  link-stats.o [1]
+  .bss                zero     0x2000526c     0xf0  nbr-table.o [1]
+  .bss                zero     0x2000535c     0xf0  uip-ds6-route.o [1]
+  .bss                zero     0x2000544c     0xc0  csma.o [1]
+  .bss                zero     0x2000550c     0xc0  csma.o [1]
+  .bss                zero     0x200055cc     0xb8  packetbuf.o [1]
+  .bss                zero     0x20005684     0xa0  rpl-dag.o [1]
+  .bss                zero     0x20005724     0xa0  uip-ds6-route.o [1]
+  .bss                zero     0x200057c4     0x80  XShHandles.o [3]
+  .bss                zero     0x20005844     0x70  csma.o [1]
+  .bss                zero     0x200058b4     0x70  process.o [1]
+  .bss                zero     0x20005924     0x58  tcpip.o [1]
+  .bss                zero     0x2000597c     0x50  xfiles.o [3]
+  .bss                zero     0x200059cc     0x50  xfiles.o [3]
+  .bss                zero     0x20005a1c     0x40  queuebuf.o [1]
+  .bss                zero     0x20005a5c     0x40  uip-ds6-route.o [1]
+  .bss                zero     0x20005a9c     0x38  rtimer-arch.o [1]
+  .bss                zero     0x20005ad4     0x34  rpl-nbr-policy.o [1]
+  .bss                zero     0x20005b08     0x34  unicast-receiver.o [1]
+  .bss                zero     0x20005b3c     0x24  rpl-timers.o [1]
+  .bss                zero     0x20005b60     0x20  cube_hal_l1.o [1]
+  .bss                zero     0x20005b80     0x20  uip-ds6-route.o [1]
+  .bss                zero     0x20005ba0     0x20  uip-ds6-route.o [1]
+  .bss                zero     0x20005bc0     0x16  node-id.o [1]
+  .bss                zero     0x20005bd6      0x2  csma.o [1]
+  .bss                zero     0x20005bd8     0x14  nbr-table.o [1]
+  .bss                zero     0x20005bec     0x10  csma.o [1]
+  .bss                zero     0x20005bfc     0x10  csma.o [1]
+  .bss                zero     0x20005c0c     0x10  queuebuf.o [1]
+  .bss                zero     0x20005c1c     0x10  queuebuf.o [1]
+  .bss                zero     0x20005c2c     0x10  servreg-hack.o [1]
+  .bss                zero     0x20005c3c     0x10  uip-icmp6.o [1]
+  .bss                zero     0x20005c4c     0x10  uip-nd6.o [1]
+  .bss                zero     0x20005c5c      0x8  clock.o [1]
+  .bss                zero     0x20005c64      0x8  linkaddr.o [1]
+  .bss                zero     0x20005c6c      0x8  uip6.o [1]
+  .bss                zero     0x20005c74      0x8  xxmemxmalloc.o [3]
+  .bss                zero     0x20005c7c      0x4  button-sensor.o [1]
+  .bss                zero     0x20005c80      0x4  contiki-spirit1-main.o [1]
+  .bss                zero     0x20005c84      0x4  radio-sensor.o [1]
+  .bss                zero     0x20005c88      0x4  rtimer-arch.o [1]
+  .bss                zero     0x20005c8c      0x4  SPIRIT_Types.o [1]
+  .bss                zero     0x20005c90      0x4  stm32l1xx_hal.o [1]
+  .bss                zero     0x20005c94      0x4  tcpip.o [1]
+  .bss                zero     0x20005c98      0x4  uip-icmp6.o [1]
+  .bss                zero     0x20005c9c      0x4  xgetmemchunk.o [3]
+  .bss                zero     0x20005ca0      0x2  framer-802154.o [1]
+  .bss                zero     0x20005ca2      0x2  uip-ds6-route.o [1]
+  .bss                zero     0x20005ca4      0x1  rpl-timers.o [1]
+  .bss                zero     0x20005ca5      0x1  rpl.o [1]
+                             - 0x20005ca6   0x336e
+
+
+*******************************************************************************
+*** INIT TABLE
+***
+
+          Address     Size
+          -------     ----
+Zero (__iar_zero_init3)
+    1 destination range, total size 0x336e:
+          0x20002938  0x336e
+
+Copy/lz77 (__iar_lz77_init_single3)
+    1 source range, total size 0x1da (20% of destination):
+          0x08011d3c   0x1da
+    1 destination range, total size 0x933:
+          0x20000000   0x933
+
+
+
+*******************************************************************************
+*** MODULE SUMMARY
+***
+
+    Module                  ro code  ro data  rw data
+    ------                  -------  -------  -------
+C:\Users\Sabooh\Documents\GitHub\sprtmodule\Projects\Multi\Applications\Contiki\Udp-receiver\EWARM\STM32L152RE-Nucleo\STM32L152RE_Nucleo\Obj: [1]
+    SPIRIT_Calibration.o        290
+    SPIRIT_Commands.o            28
+    SPIRIT_Gpio.o                44
+    SPIRIT_Irq.o                232
+    SPIRIT_LinearFifo.o          40
+    SPIRIT_Management.o         632        2        8
+    SPIRIT_PktBasic.o           508
+    SPIRIT_PktCommon.o          112
+    SPIRIT_Qi.o                 236
+    SPIRIT_Radio.o            3 976        1        8
+    SPIRIT_Timer.o              112
+    SPIRIT_Types.o               52                 4
+    autostart.o                  28
+    button-sensor.o              76       24        4
+    clock.o                      72                 8
+    console.o                    64
+    contiki-spirit1-main.o    1 388        2       16
+    csma.o                    1 120       45      574
+    ctimer.o                    396       21       24
+    cube_hal_l1.o               426                32
+    energest.o                    4
+    etimer.o                    612       16       24
+    frame802154.o             1 140                 2
+    framer-802154.o             634       12        2
+    link-stats.o                344       10      288
+    linkaddr.o                   40        8        8
+    list.o                      322
+    mac.o                        18
+    main.o                      200
+    memb.o                      258
+    nbr-table.o               1 504       19      352
+    netstack.o                   60
+    node-id.o                    44                22
+    nullrdc.o                   312       40
+    nullsec.o                    48       24
+    packetbuf.o                 552               184
+    process.o                   900               112
+    queuebuf.o                  212        4    2 936
+    radio-sensor.o              116       24        4
+    radio_gpio.o                280        4       20
+    radio_shield_config.o        70        1        4
+    radio_spi.o               1 576       19       92
+    random.o                     18
+    rpl-dag.o                 4 916       73      524
+    rpl-ext-header.o            844
+    rpl-icmp6.o               2 624       11       49
+    rpl-mrhof.o                 632        7       36
+    rpl-nbr-policy.o            340                52
+    rpl-timers.o              1 140                37
+    rpl.o                       548                 1
+    rtimer-arch.o               160                60
+    rtimer.o                      4
+    sensors.o                   280       14       28
+    servreg-hack.o            1 192       39      604
+    sicslowpan.o              5 316       24    1 776
+    simple-udp.o                304       24    1 320
+    spirit1-arch.o              232
+    spirit1.o                 2 024      104      140
+    startup_stm32l152xe.o       492
+    stimer.o                     42
+    stm32l1xx_hal.o             168                 4
+    stm32l1xx_hal_cortex.o      228
+    stm32l1xx_hal_gpio.o        488
+    stm32l1xx_hal_msp.o         544      117      580
+    stm32l1xx_hal_rcc.o       1 892
+    stm32l1xx_hal_rcc_ex.o      308
+    stm32l1xx_hal_rtc.o         772
+    stm32l1xx_hal_rtc_ex.o       56
+    stm32l1xx_hal_spi.o       1 712
+    stm32l1xx_hal_spi_ex.o      130
+    stm32l1xx_hal_tim.o       1 046
+    stm32l1xx_hal_uart.o      1 024
+    stm32l1xx_it.o              336
+    stm32l1xx_nucleo.o          273        2        8
+    system_stm32l1xx.o          100        8        4
+    tcpip.o                   1 308       20      108
+    timer.o                      60
+    uip-debug.o                 224
+    uip-ds6-nbr.o               292        4      380
+    uip-ds6-route.o           1 204       14    1 802
+    uip-ds6.o                 3 440               412
+    uip-icmp6.o                 868        6       48
+    uip-nd6.o                   612        2       28
+    uip-udp-packet.o             60
+    uip6.o                    6 628             1 940
+    unicast-receiver.o          404       47       68
+    watchdog.o                    6
+    -------------------------------------------------
+    Total:                   64 369      792   14 737
+
+command line: [2]
+    -------------------------------------------------
+    Total:
+
+dl7M_tlf.a: [3]
+    XShHandles.o                204               128
+    errno.o                      12        1        4
+    exit.o                        4
+    fclose.o                    122
+    fflush.o                    176
+    fputc.o                      86
+    fseek.o                      34
+    low_level_init.o              4
+    printf.o                     36
+    putchar.o                    12
+    rand.o                      224       28      140
+    setlocale.o                  20       23      116
+    srand.o                      32
+    xcloseall.o                  88
+    xencoding_sb.o               96
+    xfgpos.o                     10
+    xfiles.o                              46      384
+    xfofind.o                   128
+    xfspos.o                    214
+    xfwprep.o                   184
+    xgetmemchunk.o               44                 4
+    xmbcurmax.o                  10
+    xmbtowc.o                    32
+    xprintfsmall.o            1 988
+    xprout.o                     22
+    xsyslock_nop.o                4
+    xtls.o                        2
+    xwctomb.o                    26
+    xxmemxfree.o                128
+    xxmemxmalloc.o              176                 8
+    -------------------------------------------------
+    Total:                    4 118       98      784
+
+m7M_tl.a: [4]
+    DblAdd.o                    232
+    DblDiv.o                    598
+    DblMul.o                    418
+    DblSub.o                    364
+    DblToI32.o                   44
+    FltAdd.o                    132
+    FltCmpGe.o                   36
+    FltCmpLe.o                   36
+    FltDiv.o                    252
+    FltMul.o                    216
+    FltSub.o                    230
+    FltToS32.o                   68
+    FltToU32.o                   36
+    I32ToDbl.o                   48
+    I32ToFlt.o                   50
+    round.o                      68
+    xdint.o                     122
+    -------------------------------------------------
+    Total:                    2 950
+
+rt7M_tl.a: [5]
+    ABImemclr.o                   6
+    ABImemclr4.o                  6
+    ABImemcpy_unaligned.o       118
+    ABImemmove_unaligned.o      120
+    ABImemset.o                  94
+    ABImemset48.o                50
+    cexit.o                      14
+    cmain.o                      26
+    cstart_closeall.o
+    cstartup_M.o                 12
+    data_init.o                  40
+    lz77_init_single.o          120
+    memchr.o                     88
+    memcmp_unaligned.o           98
+    strchr.o                     22
+    strlen.o                     54
+    zero_init3.o                 64
+    -------------------------------------------------
+    Total:                      932
+
+shb_l.a: [6]
+    close.o                      26
+    exit.o                       20
+    lseek.o                      76
+    remove.o                     22
+    -------------------------------------------------
+    Total:                      144
+
+    Gaps                         57        2
+    Linker created                        32    8 192
+-----------------------------------------------------
+    Grand Total:             72 570      924   23 713
+
+
+*******************************************************************************
+*** ENTRY LIST
+***
+
+Entry                      Address    Size  Type      Object
+-----                      -------    ----  ----      ------
+.iar.init_table$$Base   0x08011b00           --   Gb  - Linker created -
+.iar.init_table$$Limit  0x08011b20           --   Gb  - Linker created -
+?main                   0x08011b21          Code  Gb  cmain.o [5]
+AHBPrescTable           0x08011898    0x10  Data  Gb  system_stm32l1xx.o [1]
+APBPrescTable           0x08011c7c     0x8  Data  Gb  system_stm32l1xx.o [1]
+BSP_LED_Init            0x0800f2e9    0x52  Code  Gb  stm32l1xx_nucleo.o [1]
+BSP_LED_Toggle          0x0800f33b    0x14  Code  Gb  stm32l1xx_nucleo.o [1]
+BSP_PB_GetState         0x0800f3cb    0x14  Code  Gb  stm32l1xx_nucleo.o [1]
+BSP_PB_Init             0x0800f34f    0x7c  Code  Gb  stm32l1xx_nucleo.o [1]
+BUTTON_IRQn             0x0800f3f8     0x1  Data  Gb  stm32l1xx_nucleo.o [1]
+BUTTON_PIN              0x0800f3f4     0x2  Data  Gb  stm32l1xx_nucleo.o [1]
+BUTTON_PORT             0x200006a0     0x4  Data  Gb  stm32l1xx_nucleo.o [1]
+BusFault_Handler        0x0800d1e5     0x2  Code  Gb  stm32l1xx_it.o [1]
+CSTACK$$Base            0x20000938           --   Gb  - Linker created -
+CSTACK$$Limit           0x20001938           --   Gb  - Linker created -
+DebugMon_Handler        0x0800d1eb     0x2  Code  Gb  stm32l1xx_it.o [1]
+EXTI0_IRQHandler        0x0800d1ef     0xe  Code  Gb  stm32l1xx_it.o [1]
+EXTI15_10_IRQHandler    0x0800d253     0x8  Code  Gb  stm32l1xx_it.o [1]
+EXTI1_IRQHandler        0x0800d1fd     0xe  Code  Gb  stm32l1xx_it.o [1]
+EXTI2_IRQHandler        0x0800d20b     0xe  Code  Gb  stm32l1xx_it.o [1]
+EXTI3_IRQHandler        0x0800d219     0xe  Code  Gb  stm32l1xx_it.o [1]
+EXTI9_5_IRQHandler      0x0800d227    0x2c  Code  Gb  stm32l1xx_it.o [1]
+Error_Handler           0x0800ee9d    0x12  Code  Gb  cube_hal_l1.o [1]
+HAL_DBGMCU_EnableDBGStopMode
+                        0x080114f5     0xc  Code  Gb  stm32l1xx_hal.o [1]
+HAL_Delay               0x0800f3fd    0x1c  Code  Wk  stm32l1xx_hal.o [1]
+HAL_GPIO_EXTI_Callback  0x0800d2ff     0xe  Code  Gb  stm32l1xx_it.o [1]
+HAL_GPIO_EXTI_IRQHandler
+                        0x0800ce83    0x10  Code  Gb  stm32l1xx_hal_gpio.o [1]
+HAL_GPIO_Init           0x0800ccd9   0x18a  Code  Gb  stm32l1xx_hal_gpio.o [1]
+HAL_GPIO_ReadPin        0x0800ce65     0xe  Code  Gb  stm32l1xx_hal_gpio.o [1]
+HAL_GPIO_TogglePin      0x0800ce7b     0x8  Code  Gb  stm32l1xx_hal_gpio.o [1]
+HAL_GPIO_WritePin       0x0800ce73     0x8  Code  Gb  stm32l1xx_hal_gpio.o [1]
+HAL_GetHalVersion       0x080114f1     0x4  Code  Gb  stm32l1xx_hal.o [1]
+HAL_GetTick             0x080089ed     0xc  Code  Wk  stm32l1xx_hal.o [1]
+HAL_IncTick             0x0800db15    0x10  Code  Wk  stm32l1xx_hal.o [1]
+HAL_Init                0x080114c5    0x2c  Code  Gb  stm32l1xx_hal.o [1]
+HAL_InitTick            0x080089f9    0x28  Code  Wk  stm32l1xx_hal.o [1]
+HAL_MspInit             0x0800e6e1    0x3e  Code  Gb  stm32l1xx_hal_msp.o [1]
+HAL_NVIC_DisableIRQ     0x08007a5f    0x12  Code  Gb  stm32l1xx_hal_cortex.o [1]
+HAL_NVIC_EnableIRQ      0x08007a4d    0x12  Code  Gb  stm32l1xx_hal_cortex.o [1]
+HAL_NVIC_SetPriority    0x080079fb    0x52  Code  Gb  stm32l1xx_hal_cortex.o [1]
+HAL_NVIC_SetPriorityGrouping
+                        0x080079e1    0x1a  Code  Gb  stm32l1xx_hal_cortex.o [1]
+HAL_RCCEx_PeriphCLKConfig
+                        0x0800eeb1   0x128  Code  Gb  stm32l1xx_hal_rcc_ex.o [1]
+HAL_RCC_ClockConfig     0x08007fd7   0x1a4  Code  Gb  stm32l1xx_hal_rcc.o [1]
+HAL_RCC_GetHCLKFreq     0x080081cd     0x6  Code  Gb  stm32l1xx_hal_rcc.o [1]
+HAL_RCC_GetPCLK1Freq    0x080081d3    0x14  Code  Gb  stm32l1xx_hal_rcc.o [1]
+HAL_RCC_GetPCLK2Freq    0x080081e7    0x14  Code  Gb  stm32l1xx_hal_rcc.o [1]
+HAL_RCC_GetSysClockFreq
+                        0x0800817b    0x52  Code  Gb  stm32l1xx_hal_rcc.o [1]
+HAL_RCC_OscConfig       0x08007ac5   0x512  Code  Gb  stm32l1xx_hal_rcc.o [1]
+HAL_RTC_Init            0x0800efe5    0xb6  Code  Gb  stm32l1xx_hal_rtc.o [1]
+HAL_RTC_MspInit         0x0800e899    0x50  Code  Gb  stm32l1xx_hal_msp.o [1]
+HAL_RTC_SetDate         0x0800f1cd   0x110  Code  Gb  stm32l1xx_hal_rtc.o [1]
+HAL_RTC_SetTime         0x0800f09b   0x132  Code  Gb  stm32l1xx_hal_rtc.o [1]
+HAL_RTC_WaitForSynchro  0x0800f419    0x38  Code  Gb  stm32l1xx_hal_rtc_ex.o [1]
+HAL_SPI_DeInit          0x0800c5a9    0x28  Code  Gb  stm32l1xx_hal_spi.o [1]
+HAL_SPI_GetState        0x0800cc51     0x6  Code  Gb  stm32l1xx_hal_spi.o [1]
+HAL_SPI_Init            0x0800cc57    0x82  Code  Gb  stm32l1xx_hal_spi_ex.o [1]
+HAL_SPI_MspDeInit       0x0800d1db     0x2  Code  Wk  stm32l1xx_hal_spi.o [1]
+HAL_SPI_MspInit         0x0800b251    0xd2  Code  Gb  radio_spi.o [1]
+HAL_SPI_Transmit        0x0800c5d1   0x22a  Code  Gb  stm32l1xx_hal_spi.o [1]
+HAL_SPI_TransmitReceive
+                        0x0800c7fb   0x456  Code  Gb  stm32l1xx_hal_spi.o [1]
+HAL_SYSTICK_CLKSourceConfig
+                        0x08007a93    0x14  Code  Gb  stm32l1xx_hal_cortex.o [1]
+HAL_SYSTICK_Config      0x08007a71    0x22  Code  Gb  stm32l1xx_hal_cortex.o [1]
+HAL_TIM_Base_Init       0x0800e25d    0xa2  Code  Gb  stm32l1xx_hal_tim.o [1]
+HAL_TIM_Base_MspInit    0x0800e71f    0x3a  Code  Gb  stm32l1xx_hal_msp.o [1]
+HAL_TIM_Base_Start_IT   0x0800e2ff    0x16  Code  Gb  stm32l1xx_hal_tim.o [1]
+HAL_TIM_ConfigClockSource
+                        0x0800e4d5   0x194  Code  Gb  stm32l1xx_hal_tim.o [1]
+HAL_TIM_OC_ConfigChannel
+                        0x0800e3d1   0x104  Code  Gb  stm32l1xx_hal_tim.o [1]
+HAL_TIM_OC_Init         0x0800e315    0xa2  Code  Gb  stm32l1xx_hal_tim.o [1]
+HAL_TIM_OC_MspInit      0x0800e901     0x2  Code  Wk  stm32l1xx_hal_tim.o [1]
+HAL_UART_Init           0x0800e905    0x5c  Code  Gb  stm32l1xx_hal_uart.o [1]
+HAL_UART_MspInit        0x0800e759    0x7e  Code  Gb  stm32l1xx_hal_msp.o [1]
+HAL_UART_Receive_IT     0x0800ea9f    0x6a  Code  Gb  stm32l1xx_hal_uart.o [1]
+HAL_UART_Transmit       0x0800e961   0x13e  Code  Gb  stm32l1xx_hal_uart.o [1]
+HEAP$$Base              0x20001938           --   Gb  - Linker created -
+HEAP$$Limit             0x20002938           --   Gb  - Linker created -
+HardFault_Handler       0x0800d1e1     0x2  Code  Gb  stm32l1xx_it.o [1]
+LED_PIN                 0x0800f3f0     0x2  Data  Gb  stm32l1xx_nucleo.o [1]
+LED_PORT                0x2000069c     0x4  Data  Gb  stm32l1xx_nucleo.o [1]
+LoadInt                 0x08008659    0x4c  Code  Lc  xprintfsmall.o [3]
+MX_GPIO_Init            0x0800ee4b    0x3e  Code  Gb  cube_hal_l1.o [1]
+MemManage_Handler       0x0800d1e3     0x2  Code  Gb  stm32l1xx_it.o [1]
+NMI_Handler             0x0800d1dd     0x2  Code  Gb  stm32l1xx_it.o [1]
+PLLMulTable             0x0801188c     0xc  Data  Gb  system_stm32l1xx.o [1]
+PendSV_Handler          0x0800d1ed     0x2  Code  Gb  stm32l1xx_it.o [1]
+RTC_Config              0x0800ed05    0x38  Code  Gb  cube_hal_l1.o [1]
+RTC_TimeStampConfig     0x0800ed3d    0x6c  Code  Gb  cube_hal_l1.o [1]
+RadioGpioInit           0x0800cec1    0x9c  Code  Gb  radio_gpio.o [1]
+RadioGpioInterruptCmd   0x0800cf5d    0x2c  Code  Gb  radio_gpio.o [1]
+RadioShieldLedInit      0x0801150d    0x3c  Code  Gb  radio_shield_config.o [1]
+RadioSpiCommandStrobes  0x0800b539    0xda  Code  Gb  radio_spi.o [1]
+RadioSpiInit            0x0800b209    0x48  Code  Gb  radio_spi.o [1]
+RadioSpiReadFifo        0x0800b721    0xfc  Code  Gb  radio_spi.o [1]
+RadioSpiReadRegisters   0x0800b435   0x104  Code  Gb  radio_spi.o [1]
+RadioSpiWriteFifo       0x0800b615   0x10c  Code  Gb  radio_spi.o [1]
+RadioSpiWriteRegisters  0x0800b325   0x10e  Code  Gb  radio_spi.o [1]
+Region$$Table$$Base     0x08011b00           --   Gb  - Linker created -
+Region$$Table$$Limit    0x08011b20           --   Gb  - Linker created -
+RtcHandle               0x20005b60    0x20  Data  Gb  cube_hal_l1.o [1]
+SVC_Handler             0x0800d1e9     0x2  Code  Gb  stm32l1xx_it.o [1]
+SpiTimeout              0x2000017c     0x4  Data  Gb  radio_spi.o [1]
+SpiritCalibrationGetVcoCalData
+                        0x0800c209    0x24  Code  Gb  SPIRIT_Calibration.o [1]
+SpiritCalibrationSelectVco
+                        0x0800c2ad    0x3a  Code  Gb  SPIRIT_Calibration.o [1]
+SpiritCalibrationSetVcoCalDataRx
+                        0x0800c26b    0x3e  Code  Gb  SPIRIT_Calibration.o [1]
+SpiritCalibrationSetVcoCalDataTx
+                        0x0800c22d    0x3e  Code  Gb  SPIRIT_Calibration.o [1]
+SpiritCalibrationVco    0x0800c1c5    0x44  Code  Gb  SPIRIT_Calibration.o [1]
+SpiritCmdStrobeCommand  0x0800cfd9    0x1c  Code  Gb  SPIRIT_Commands.o [1]
+SpiritGpioInit          0x0800e209    0x26  Code  Gb  SPIRIT_Gpio.o [1]
+SpiritIrq               0x0800dc65    0x6c  Code  Gb  SPIRIT_Irq.o [1]
+SpiritIrqClearStatus    0x0800dd07    0x1c  Code  Gb  SPIRIT_Irq.o [1]
+SpiritIrqDeInit         0x0800dc41    0x24  Code  Gb  SPIRIT_Irq.o [1]
+SpiritIrqGetStatus      0x0800dcd1    0x36  Code  Gb  SPIRIT_Irq.o [1]
+SpiritLinearFifoReadNumElementsRxFifo
+                        0x0800e235    0x24  Code  Gb  SPIRIT_LinearFifo.o [1]
+SpiritManagementSetFrequencyBase
+                        0x0800bab1   0x106  Code  Gb  SPIRIT_Management.o [1]
+SpiritManagementWaTRxFcMem
+                        0x0800bce1     0xa  Code  Gb  SPIRIT_Management.o [1]
+SpiritManagementWaVcoCalibration
+                        0x0800bbb9   0x128  Code  Gb  SPIRIT_Management.o [1]
+SpiritPktBasicGetReceivedPktLength
+                        0x0800e053    0x56  Code  Gb  SPIRIT_PktBasic.o [1]
+SpiritPktBasicInit      0x0800deb1   0x14c  Code  Gb  SPIRIT_PktBasic.o [1]
+SpiritPktBasicSetPayloadLength
+                        0x0800dffd    0x56  Code  Gb  SPIRIT_PktBasic.o [1]
+SpiritPktCommonFilterOnCrc
+                        0x0800e697    0x46  Code  Gb  SPIRIT_PktCommon.o [1]
+SpiritPktCommonGetControlLength
+                        0x0800e671    0x26  Code  Gb  SPIRIT_PktCommon.o [1]
+SpiritQiGetLqi          0x0800e12f    0x22  Code  Gb  SPIRIT_Qi.o [1]
+SpiritQiGetRssi         0x0800e151    0x20  Code  Gb  SPIRIT_Qi.o [1]
+SpiritQiSetRssiThresholddBm
+                        0x0800e171    0x24  Code  Gb  SPIRIT_Qi.o [1]
+SpiritQiSetSqiThreshold
+                        0x0800e0f1    0x3e  Code  Gb  SPIRIT_Qi.o [1]
+SpiritQiSqiCheck        0x0800e0ad    0x44  Code  Gb  SPIRIT_Qi.o [1]
+SpiritRadioAFCFreezeOnSync
+                        0x0800b0d5    0x44  Code  Gb  SPIRIT_Radio.o [1]
+SpiritRadioGetChannel   0x0800a811    0x22  Code  Gb  SPIRIT_Radio.o [1]
+SpiritRadioGetChannelSpace
+                        0x0800a833    0x2c  Code  Gb  SPIRIT_Radio.o [1]
+SpiritRadioGetFrequencyBase
+                        0x0800aa29    0xd4  Code  Gb  SPIRIT_Radio.o [1]
+SpiritRadioGetFrequencyOffset
+                        0x0800a85f    0x46  Code  Gb  SPIRIT_Radio.o [1]
+SpiritRadioGetRefDiv    0x0800b1c5    0x2a  Code  Gb  SPIRIT_Radio.o [1]
+SpiritRadioGetXtalFrequency
+                        0x0800b1ef     0x6  Code  Gb  SPIRIT_Radio.o [1]
+SpiritRadioGetdBm2Reg   0x0800ae19    0xf6  Code  Gb  SPIRIT_Radio.o [1]
+SpiritRadioInit         0x0800a281   0x4c0  Code  Gb  SPIRIT_Radio.o [1]
+SpiritRadioPersistenRx  0x0800b14d    0x3c  Code  Gb  SPIRIT_Radio.o [1]
+SpiritRadioSearchChannelBwME
+                        0x0800ac25   0x110  Code  Gb  SPIRIT_Radio.o [1]
+SpiritRadioSearchDatarateME
+                        0x0800ab1d   0x104  Code  Gb  SPIRIT_Radio.o [1]
+SpiritRadioSearchWCP    0x0800a741    0xae  Code  Gb  SPIRIT_Radio.o [1]
+SpiritRadioSetFrequencyBase
+                        0x0800a8a9   0x176  Code  Gb  SPIRIT_Radio.o [1]
+SpiritRadioSetPALevelMaxIndex
+                        0x0800b09d    0x38  Code  Gb  SPIRIT_Radio.o [1]
+SpiritRadioSetPALeveldBm
+                        0x0800af9d    0xfa  Code  Gb  SPIRIT_Radio.o [1]
+SpiritRadioSetRefDiv    0x0800b189    0x3c  Code  Gb  SPIRIT_Radio.o [1]
+SpiritRadioSetXtalFrequency
+                        0x0800b1f5     0x6  Code  Gb  SPIRIT_Radio.o [1]
+SpiritRefreshStatus     0x0800ba7d    0x34  Code  Gb  SPIRIT_Types.o [1]
+SpiritTimerSetRxTimeoutCounter
+                        0x0800e199    0x1e  Code  Gb  SPIRIT_Timer.o [1]
+SpiritTimerSetRxTimeoutStopCondition
+                        0x0800e1b7    0x4e  Code  Gb  SPIRIT_Timer.o [1]
+Stack_6LoWPAN_Init      0x0800f451    0xaa  Code  Gb  contiki-spirit1-main.o [1]
+SysTick_Handler         0x0800d2bb    0x44  Code  Gb  stm32l1xx_it.o [1]
+SystemClock_Config      0x0800eda9    0xa2  Code  Gb  cube_hal_l1.o [1]
+SystemCoreClock         0x200006a4     0x4  Data  Gb  system_stm32l1xx.o [1]
+SystemInit              0x08011845    0x38  Code  Gb  system_stm32l1xx.o [1]
+TIM2_IRQHandler         0x0800d2a7    0x14  Code  Gb  stm32l1xx_it.o [1]
+UART_RxBuffer           0x2000049c   0x200  Data  Gb  stm32l1xx_hal_msp.o [1]
+UART_SetConfig          0x0800eb09   0x1f2  Code  Lc  stm32l1xx_hal_uart.o [1]
+USART2_IRQHandler       0x0800d25b    0x4c  Code  Gb  stm32l1xx_it.o [1]
+USARTConfig             0x0800e7d7    0xc2  Code  Gb  stm32l1xx_hal_msp.o [1]
+UartHandle              0x20000458    0x40  Data  Gb  stm32l1xx_hal_msp.o [1]
+UsageFault_Handler      0x0800d1e7     0x2  Code  Gb  stm32l1xx_it.o [1]
+Usart_BaudRate          0x20000498     0x4  Data  Gb  stm32l1xx_hal_msp.o [1]
+WWDG_IRQHandler         0x0800d1df     0x2  Code  Gb  stm32l1xx_it.o [1]
+_Close_all              0x080118a9    0x58  Code  Gb  xcloseall.o [3]
+_EncodingSb_Mbtowc      0x08008c6f    0x30  Code  Gb  xencoding_sb.o [3]
+_EncodingSb_Mbtowc::initial
+                        0x08008cac     0x8  Data  Lc  xencoding_sb.o [3]
+_EncodingSb_Wctomb      0x08008c55    0x1a  Code  Gb  xencoding_sb.o [3]
+_EncodingSb_Wctomb::initial
+                        0x08008ca4     0x8  Data  Lc  xencoding_sb.o [3]
+_Files                  0x2000080c    0x20  Data  Gb  xfiles.o [3]
+_Fofree                 0x0801162d    0x78  Code  Gb  xfofind.o [3]
+_Fspos                  0x08011101    0xd6  Code  Gb  xfspos.o [3]
+_Fwprep                 0x08011553    0xb8  Code  Gb  xfwprep.o [3]
+_IsdstStr               0x200008bc     0x4  Data  Gb  setlocale.o [3]
+_LitobSmall             0x080088d7    0xce  Code  Lc  xprintfsmall.o [3]
+_LocaleEncoding         0x08008c41     0xe  Code  Gb  setlocale.o [3]
+_LocaleReturnString     0x200008dc    0x50  Data  Lc  setlocale.o [3]
+_Locale_Profile         0x200008c0    0x1c  Data  Gb  setlocale.o [3]
+_Mbtowc                 0x08008a21    0x20  Code  Gb  xmbtowc.o [3]
+_Nnl                    0x08011289     0xa  Code  Gb  xfgpos.o [3]
+_PrintfSmall            0x08008229   0x430  Code  Gb  xprintfsmall.o [3]
+_Prout                  0x08011be1    0x16  Code  Gb  xprout.o [3]
+_PutcharsSmall          0x080089a5    0x2e  Code  Lc  xprintfsmall.o [3]
+_PutstrSmall            0x080086a5   0x228  Code  Lc  xprintfsmall.o [3]
+_Rand_idx               0x20000834     0x4  Data  Lc  rand.o [3]
+_Rand_rv                0x20000838    0x80  Data  Lc  rand.o [3]
+_Randinit               0x2000082c     0x1  Data  Gb  rand.o [3]
+_Randseed               0x20000830     0x4  Data  Gb  rand.o [3]
+_TzoneStr               0x200008b8     0x4  Data  Gb  setlocale.o [3]
+_Wctomb                 0x08008ba5    0x1a  Code  Gb  xwctomb.o [3]
+__aeabi_cfcmple         0x0800c585          Code  Gb  FltCmpLe.o [4]
+__aeabi_cfrcmple        0x0800c1a1          Code  Gb  FltCmpGe.o [4]
+__aeabi_d2uiz           0x0800befd          Code  Gb  DblToI32.o [4]
+__aeabi_dadd            0x0800bf4d          Code  Gb  DblAdd.o [4]
+__aeabi_ddiv            0x0800c2e9          Code  Gb  DblDiv.o [4]
+__aeabi_dmul            0x0800bd59          Code  Gb  DblMul.o [4]
+__aeabi_errno_addr      0x080112e1     0x6  Code  Gb  errno.o [3]
+__aeabi_f2iz            0x0800ba39          Code  Gb  FltToS32.o [4]
+__aeabi_f2uiz           0x0800bf29          Code  Gb  FltToU32.o [4]
+__aeabi_fadd            0x0800c035          Code  Gb  FltAdd.o [4]
+__aeabi_fdiv            0x0800b93d          Code  Gb  FltDiv.o [4]
+__aeabi_fmul            0x0800b865          Code  Gb  FltMul.o [4]
+__aeabi_fsub            0x0800c0b9          Code  Gb  FltSub.o [4]
+__aeabi_i2d             0x0800bd29          Code  Gb  I32ToDbl.o [4]
+__aeabi_i2f             0x0800b831          Code  Gb  I32ToFlt.o [4]
+__aeabi_memclr          0x0800479d          Code  Gb  ABImemclr.o [5]
+__aeabi_memclr4         0x08003dd5          Code  Gb  ABImemclr4.o [5]
+__aeabi_ui2d            0x0800bd3d          Code  Gb  I32ToDbl.o [4]
+__aeabi_ui2f            0x0800b845          Code  Gb  I32ToFlt.o [4]
+__cexit_closeall        0x08011b47          Code  Gb  cexit.o [5]
+__close                 0x08011727    0x1a  Code  Gb  close.o [6]
+__cmain                 0x08011b21          Code  Gb  cmain.o [5]
+__cstart_closeall       0x08011d3c          Data  Gb  cstart_closeall.o [5]
+__data_Aldata           0x20005c74     0x8  Data  Gb  xxmemxmalloc.o [3]
+__data_GetMemChunk      0x08008cb5    0x2c  Code  Gb  xgetmemchunk.o [3]
+__data_GetMemChunk::start
+                        0x20005c9c     0x4  Data  Lc  xgetmemchunk.o [3]
+__exit                  0x08011b55    0x14  Code  Gb  exit.o [6]
+__iar_Dint              0x0800d161    0x7a  Code  Gb  xdint.o [4]
+__iar_Errno             0x2000092c     0x4  Data  Gb  errno.o [3]
+__iar_Lockfilelock      0x080112ed     0x2  Code  Gb  xsyslock_nop.o [3]
+__iar_Mbcurmax          0x08008ae9     0xa  Code  Gb  xmbcurmax.o [3]
+__iar_Memchr            0x08008a91          Code  Gb  memchr.o [5]
+__iar_Memset4_word      0x080074c1          Code  Gb  ABImemset48.o [5]
+__iar_Memset8_word      0x080074c1          Code  Gb  ABImemset48.o [5]
+__iar_Memset_word       0x080077cd          Code  Gb  ABImemset.o [5]
+__iar_Stderr            0x200007cc    0x40  Data  Gb  xfiles.o [3]
+__iar_Stdin             0x2000074c    0x40  Data  Gb  xfiles.o [3]
+__iar_Stdout            0x2000078c    0x40  Data  Gb  xfiles.o [3]
+__iar_Strchr            0x08008a41          Code  Gb  strchr.o [5]
+__iar_Unlockfilelock    0x080112ef     0x2  Code  Gb  xsyslock_nop.o [3]
+__iar_d2uiz             0x0800bf09          Code  Gb  DblToI32.o [4]
+__iar_dadd              0x0800bf61          Code  Gb  DblAdd.o [4]
+__iar_data_init3        0x08011ab5    0x28  Code  Gb  data_init.o [5]
+__iar_dlib_perthread_access
+                        0x080079dd     0x2  Code  Gb  xtls.o [3]
+__iar_dsub              0x0800cff5          Code  Gb  DblSub.o [4]
+__iar_dsubStart         0x0800d007          Code  Gb  DblSub.o [4]
+__iar_fadd              0x0800c045          Code  Gb  FltAdd.o [4]
+__iar_fsub              0x0800c0c9          Code  Gb  FltSub.o [4]
+__iar_fsubStart         0x0800c0d9          Code  Gb  FltSub.o [4]
+__iar_lz77_init_single3
+                        0x08011757    0x78  Code  Gb  lz77_init_single.o [5]
+__iar_program_start     0x08011c61          Code  Gb  cstartup_M.o [5]
+__iar_sh_Discard        0x08011331    0x3e  Code  Gb  XShHandles.o [3]
+__iar_sh_Move           0x08011375    0x46  Code  Gb  XShHandles.o [3]
+__iar_sh_Pos            0x080113bb    0x3e  Code  Gb  XShHandles.o [3]
+__iar_ui2d              0x0800bd41          Code  Gb  I32ToDbl.o [4]
+__iar_ui2f              0x0800b849          Code  Gb  I32ToFlt.o [4]
+__iar_unaligned___aeabi_memcpy
+                        0x08002eb9          Code  Gb  ABImemcpy_unaligned.o [5]
+__iar_unaligned___aeabi_memcpy4
+                        0x08002ed9          Code  Gb  ABImemcpy_unaligned.o [5]
+__iar_unaligned___aeabi_memcpy8
+                        0x08002ed9          Code  Gb  ABImemcpy_unaligned.o [5]
+__iar_unaligned___aeabi_memmove
+                        0x08002e41          Code  Gb  ABImemmove_unaligned.o [5]
+__iar_unaligned___aeabi_memmove4
+                        0x08002e41          Code  Gb  ABImemmove_unaligned.o [5]
+__iar_unaligned___aeabi_memmove8
+                        0x08002e41          Code  Gb  ABImemmove_unaligned.o [5]
+__iar_unaligned_memcmp  0x08003799          Code  Gb  memcmp_unaligned.o [5]
+__iar_zero_init3        0x080119f1    0x40  Code  Gb  zero_init3.o [5]
+__low_level_init        0x08011b3b     0x4  Code  Gb  low_level_init.o [3]
+__lseek                 0x08011293    0x4c  Code  Gb  lseek.o [6]
+__vector_table          0x08000000          Data  Gb  startup_stm32l152xe.o [1]
+__write                 0x080112f1    0x3c  Code  Gb  console.o [1]
+_active                 0x20005c7c     0x4  Data  Lc  button-sensor.o [1]
+_active                 0x20005c84     0x4  Data  Lc  radio-sensor.o [1]
+_call_main              0x08011b2d          Code  Gb  cmain.o [5]
+_ds6_neighbors_mem      0x20005014   0x168  Data  Lc  uip-ds6-nbr.o [1]
+_exit                   0x08011b45          Code  Gb  cexit.o [5]
+_link_stats_mem         0x2000517c    0xf0  Data  Lc  link-stats.o [1]
+_main                   0x08011b37          Code  Gb  cmain.o [5]
+_nbr_routes_mem         0x20005724    0xa0  Data  Lc  uip-ds6-route.o [1]
+_rpl_parents_mem        0x20005684    0xa0  Data  Lc  rpl-dag.o [1]
+aLED_GPIO_PIN           0x08011550     0x2  Data  Gb  radio_shield_config.o [1]
+aLED_GPIO_PORT          0x20000120     0x4  Data  Gb  radio_shield_config.o [1]
+aRADIO_GPIO_EXTI_MODE   0x0800cfc4    0x10  Data  Lc  radio_gpio.o [1]
+aRADIO_GPIO_IRQn        0x0800cfd4     0x4  Data  Lc  radio_gpio.o [1]
+aRADIO_GPIO_PIN         0x0800cf90     0xc  Data  Lc  radio_gpio.o [1]
+aRADIO_GPIO_PORT        0x2000010c    0x14  Data  Gb  radio_gpio.o [1]
+aRADIO_GPIO_PUPD        0x0800cfb0    0x14  Data  Lc  radio_gpio.o [1]
+aRADIO_GPIO_SPEED       0x0800cf9c    0x14  Data  Lc  radio_gpio.o [1]
+acceptable_rank         0x080048a7    0x30  Code  Lc  rpl-dag.o [1]
+add_fragment            0x08008de1   0x22e  Code  Lc  sicslowpan.o [1]
+add_timer               0x08003f23    0x56  Code  Lc  etimer.o [1]
+addr                    0x20005c58     0x4  Data  Lc  uip-nd6.o [1]
+addr_contexts           0x20003d34    0x14  Data  Lc  sicslowpan.o [1]
+all_tables              0x200000cc    0x20  Data  Lc  nbr-table.o [1]
+autostart_processes     0x08011a84     0x8  Data  Gb  unicast-receiver.o [1]
+autostart_start         0x0800fa29    0x1a  Code  Gb  autostart.o [1]
+best_dag                0x08010cd9    0x24  Code  Lc  rpl-mrhof.o [1]
+best_parent             0x08004f31    0x76  Code  Lc  rpl-dag.o [1]
+best_parent             0x08010b6d   0x16c  Code  Lc  rpl-mrhof.o [1]
+buflen                  0x200055ce     0x2  Data  Lc  packetbuf.o [1]
+bufmem                  0x200000f4     0xc  Data  Lc  queuebuf.o [1]
+bufmem_memb_count       0x20005c0c    0x10  Data  Lc  queuebuf.o [1]
+bufmem_memb_mem         0x20005a1c    0x40  Data  Lc  queuebuf.o [1]
+bufptr                  0x200055d0     0x2  Data  Lc  packetbuf.o [1]
+buframmem               0x20000100     0xc  Data  Lc  queuebuf.o [1]
+buframmem_memb_count    0x20005c1c    0x10  Data  Lc  queuebuf.o [1]
+buframmem_memb_mem      0x20002938   0xb00  Data  Lc  queuebuf.o [1]
+button_sensor           0x08011b70    0x10  Data  Gb  button-sensor.o [1]
+call_process            0x08006d1b    0x40  Code  Lc  process.o [1]
+callback                0x200042a8     0x4  Data  Lc  sicslowpan.o [1]
+channel_check_interval  0x080107c1     0xe  Code  Lc  csma.o [1]
+channel_check_interval  0x080110e5     0x4  Code  Lc  nullrdc.o [1]
+check_prefix            0x08004abb    0x9a  Code  Lc  rpl-dag.o [1]
+clear_fragments         0x08008ce1    0x82  Code  Lc  sicslowpan.o [1]
+clock_init              0x080075f5    0x28  Code  Gb  clock.o [1]
+clock_seconds           0x0800761d     0x6  Code  Gb  clock.o [1]
+clock_time              0x08007623     0x6  Code  Gb  clock.o [1]
+clock_wait              0x0800762b     0xe  Code  Gb  clock.o [1]
+compress_hdr_iphc       0x080090cd   0x6aa  Code  Lc  sicslowpan.o [1]
+configure               0x080119ab    0x34  Code  Lc  button-sensor.o [1]
+configure               0x0801180f    0x1c  Code  Lc  radio-sensor.o [1]
+context                 0x200042ac     0x4  Data  Lc  sicslowpan.o [1]
+create                  0x080108e1   0x116  Code  Lc  framer-802154.o [1]
+csma_driver             0x08011ae4    0x1c  Data  Gb  csma.o [1]
+ctimer_init             0x080078dd    0x1c  Code  Gb  ctimer.o [1]
+ctimer_list_list        0x2000003c     0x4  Data  Lc  ctimer.o [1]
+ctimer_process          0x20000040    0x10  Data  Gb  ctimer.o [1]
+ctimer_reset            0x08007931    0x2c  Code  Gb  ctimer.o [1]
+ctimer_restart          0x0800795d    0x2c  Code  Gb  ctimer.o [1]
+ctimer_set              0x080078f9    0x38  Code  Gb  ctimer.o [1]
+ctimer_stop             0x08007989    0x26  Code  Gb  ctimer.o [1]
+dao_ack_handler         0x20000310     0xc  Data  Lc  rpl-icmp6.o [1]
+dao_ack_input           0x08006b65     0xc  Code  Lc  rpl-icmp6.o [1]
+dao_handler             0x20000304     0xc  Data  Lc  rpl-icmp6.o [1]
+dao_input               0x080069a1    0x2a  Code  Lc  rpl-icmp6.o [1]
+dao_input_storing       0x080066d9   0x2c8  Code  Lc  rpl-icmp6.o [1]
+dao_output              0x080069cb    0xbc  Code  Gb  rpl-icmp6.o [1]
+dao_output_target       0x08006a87     0x4  Code  Gb  rpl-icmp6.o [1]
+dao_output_target_seq   0x08006a8b    0xda  Code  Lc  rpl-icmp6.o [1]
+dao_sequence            0x20000932     0x1  Data  Lc  rpl-icmp6.o [1]
+databuffer              0x200042b4   0x514  Data  Lc  simple-udp.o [1]
+default_instance        0x200002e8     0x4  Data  Gb  rpl-dag.o [1]
+defaultrouterlist_list  0x20000700     0x4  Data  Lc  uip-ds6-route.o [1]
+defaultroutermemb       0x20000704     0xc  Data  Lc  uip-ds6-route.o [1]
+defaultroutermemb_memb_count
+                        0x20005ca2     0x2  Data  Lc  uip-ds6-route.o [1]
+defaultroutermemb_memb_mem
+                        0x20005a5c    0x40  Data  Lc  uip-ds6-route.o [1]
+device_id               0x20005bc0     0xc  Data  Gb  node-id.o [1]
+dio_handler             0x200002f8     0xc  Data  Lc  rpl-icmp6.o [1]
+dio_input               0x08006269   0x28a  Code  Lc  rpl-icmp6.o [1]
+dio_output              0x080064f3   0x1e4  Code  Gb  rpl-icmp6.o [1]
+dio_send_ok             0x20005ca4     0x1  Data  Lc  rpl-timers.o [1]
+dis_handler             0x200002ec     0xc  Data  Lc  rpl-icmp6.o [1]
+dis_input               0x080061b5    0x70  Code  Lc  rpl-icmp6.o [1]
+dis_output              0x08006225    0x44  Code  Gb  rpl-icmp6.o [1]
+ds6_neighbors           0x200006c8     0x4  Data  Gb  uip-ds6-nbr.o [1]
+ds6_neighbors_struct    0x200006b8    0x10  Data  Lc  uip-ds6-nbr.o [1]
+ebuf                    0x2000597c    0x50  Data  Lc  xfiles.o [3]
+echo_reply_callback_list_list
+                        0x20005c98     0x4  Data  Lc  uip-icmp6.o [1]
+echo_reply_handler      0x20000724     0xc  Data  Lc  uip-icmp6.o [1]
+echo_reply_input        0x08002b11    0x94  Code  Lc  uip-icmp6.o [1]
+echo_request_handler    0x20000718     0xc  Data  Lc  uip-icmp6.o [1]
+echo_request_input      0x080028bb    0xae  Code  Lc  uip-icmp6.o [1]
+energest_flush          0x0800db27     0x2  Code  Gb  energest.o [1]
+energest_init           0x0800db25     0x2  Code  Gb  energest.o [1]
+etimer_expiration_time  0x08003fb5     0x8  Code  Gb  etimer.o [1]
+etimer_expired          0x08003fa9     0xc  Code  Gb  etimer.o [1]
+etimer_pending          0x08003fbd     0xa  Code  Gb  etimer.o [1]
+etimer_process          0x20000058    0x10  Data  Gb  etimer.o [1]
+etimer_request_poll     0x08003f1d     0x6  Code  Gb  etimer.o [1]
+etimer_reset            0x08003f89    0x10  Code  Gb  etimer.o [1]
+etimer_restart          0x08003f99    0x10  Code  Gb  etimer.o [1]
+etimer_set              0x08003f79    0x10  Code  Gb  etimer.o [1]
+etimer_stop             0x08003fc7    0x7c  Code  Gb  etimer.o [1]
+eventhandler            0x080032db   0x258  Code  Lc  tcpip.o [1]
+events                  0x200058b4    0x60  Data  Lc  process.o [1]
+exit                    0x08011b3f     0x4  Code  Gb  exit.o [3]
+exit_process            0x08006c41    0xda  Code  Lc  process.o [1]
+ext_hdr_options_process
+                        0x08000409    0xae  Code  Lc  uip6.o [1]
+fPowerFactors           0x0800af24    0x78  Data  Lc  SPIRIT_Radio.o [1]
+fclose                  0x080116ad    0x7a  Code  Gb  fclose.o [3]
+fevent                  0x20005916     0x1  Data  Lc  process.o [1]
+fflush                  0x0801124f    0x34  Code  Gb  fflush.o [3]
+fflushOne               0x080111d9    0x76  Code  Lc  fflush.o [3]
+field_len               0x0800fff3    0x86  Code  Lc  frame802154.o [1]
+fputc                   0x08011901    0x56  Code  Gb  fputc.o [3]
+frag_buf                0x20003d48   0x54c  Data  Lc  sicslowpan.o [1]
+frag_info               0x20003bc4   0x170  Data  Lc  sicslowpan.o [1]
+frame802154_create      0x08010109   0x104  Code  Gb  frame802154.o [1]
+frame802154_create_fcf  0x080100ab    0x5e  Code  Gb  frame802154.o [1]
+frame802154_get_pan_id  0x0800ff29     0x8  Code  Gb  frame802154.o [1]
+frame802154_has_panid   0x0800ff31    0xa8  Code  Gb  frame802154.o [1]
+frame802154_hdrlen      0x08010079    0x32  Code  Gb  frame802154.o [1]
+frame802154_is_broadcast_addr
+                        0x0800ffd9    0x1a  Code  Gb  frame802154.o [1]
+frame802154_parse       0x08010273   0x120  Code  Gb  frame802154.o [1]
+frame802154_parse_fcf   0x0801020d    0x66  Code  Gb  frame802154.o [1]
+framer_802154           0x08011c54     0xc  Data  Gb  framer-802154.o [1]
+free                    0x08008bc1    0x7a  Code  Gb  xxmemxfree.o [3]
+fseek                   0x0801160b    0x22  Code  Gb  fseek.o [3]
+g_xStatus               0x20005c8c     0x4  Data  Gb  SPIRIT_Types.o [1]
+get_probing_target      0x08005fef    0xb4  Code  Gb  rpl-timers.o [1]
+global_repair           0x08005539    0xd8  Code  Lc  rpl-dag.o [1]
+handle_dao_timer        0x08005f19    0x52  Code  Lc  rpl-timers.o [1]
+handle_dio_timer        0x08005da9    0x84  Code  Lc  rpl-timers.o [1]
+handle_periodic_timer   0x08007679    0x14  Code  Lc  rpl-nbr-policy.o [1]
+handle_periodic_timer   0x08005d01    0x4e  Code  Lc  rpl-timers.o [1]
+handle_probing_timer    0x080060a3    0x6a  Code  Lc  rpl-timers.o [1]
+handle_unicast_dio_timer
+                        0x08005fbb    0x1c  Code  Lc  rpl-timers.o [1]
+hc06_ptr                0x200042b0     0x4  Data  Lc  sicslowpan.o [1]
+hdr_length              0x08010811    0xd0  Code  Lc  framer-802154.o [1]
+hdrlen                  0x200055cc     0x1  Data  Lc  packetbuf.o [1]
+htim2                   0x20005a9c    0x38  Data  Gb  rtimer-arch.o [1]
+init                    0x080107cf    0x1e  Code  Lc  csma.o [1]
+init                    0x080110e9     0x6  Code  Lc  nullrdc.o [1]
+init                    0x08011a31     0x2  Code  Lc  nullsec.o [1]
+initialized             0x20000038     0x1  Data  Lc  ctimer.o [1]
+initialized             0x20005ca1     0x1  Data  Lc  framer-802154.o [1]
+input                   0x08011a53     0x6  Code  Lc  nullsec.o [1]
+input                   0x08009e49   0x2f6  Code  Lc  sicslowpan.o [1]
+input_handler_list_list
+                        0x20000714     0x4  Data  Lc  uip-icmp6.o [1]
+input_packet            0x080107af     0x6  Code  Lc  csma.o [1]
+insert_hbh_header       0x080030e9    0xa4  Code  Lc  rpl-ext-header.o [1]
+instance_table          0x20000190   0x154  Data  Gb  rpl-dag.o [1]
+interrupt_callback_in_progress
+                        0x20000430     0x4  Data  Lc  spirit1.o [1]
+interrupt_callback_wants_poll
+                        0x20000434     0x4  Data  Lc  spirit1.o [1]
+iss                     0x20003b9c     0x4  Data  Lc  uip6.o [1]
+last_lqi                0x200003c2     0x2  Data  Lc  spirit1.o [1]
+last_rssi               0x200042a4     0x4  Data  Lc  sicslowpan.o [1]
+last_rssi               0x200003c0     0x2  Data  Lc  spirit1.o [1]
+last_tx_status          0x200042a0     0x4  Data  Lc  sicslowpan.o [1]
+lastevent               0x20005914     0x1  Data  Lc  process.o [1]
+lastport                0x20003bac     0x2  Data  Lc  uip6.o [1]
+link_stats_from_lladdr  0x0800715d     0x8  Code  Gb  link-stats.o [1]
+link_stats_init         0x08007283    0x1e  Code  Gb  link-stats.o [1]
+link_stats_input_callback
+                        0x08007211    0x4a  Code  Gb  link-stats.o [1]
+link_stats_is_fresh     0x08007165    0x22  Code  Gb  link-stats.o [1]
+link_stats_packet_sent  0x08007187    0x8a  Code  Gb  link-stats.o [1]
+link_stats_struct       0x20000068    0x10  Data  Lc  link-stats.o [1]
+linkaddr_cmp            0x080072bb    0x14  Code  Gb  linkaddr.o [1]
+linkaddr_copy           0x080072b5     0x6  Code  Gb  linkaddr.o [1]
+linkaddr_node_addr      0x20005c64     0x8  Data  Gb  linkaddr.o [1]
+linkaddr_null           0x08011c6c     0x8  Data  Gb  linkaddr.o [1]
+linkaddr_set_node_addr  0x080072cf     0xa  Code  Gb  linkaddr.o [1]
+list_add                0x08004085    0x76  Code  Gb  list.o [1]
+list_head               0x08004081     0x4  Code  Gb  list.o [1]
+list_init               0x0800407b     0x6  Code  Gb  list.o [1]
+list_item_next          0x080041b7     0x6  Code  Gb  list.o [1]
+list_length             0x08004191    0x26  Code  Gb  list.o [1]
+list_push               0x080040fb    0x4c  Code  Gb  list.o [1]
+list_remove             0x08004147    0x4a  Code  Gb  list.o [1]
+llprefix                0x0800a19c     0x2  Data  Gb  sicslowpan.o [1]
+loc_fipaddr             0x20004e78    0x10  Data  Lc  uip-ds6.o [1]
+locaaddr                0x20004f9c     0x4  Data  Lc  uip-ds6.o [1]
+locaddr                 0x20004f94     0x4  Data  Lc  uip-ds6.o [1]
+locked_map              0x200000b8    0x14  Data  Lc  nbr-table.o [1]
+locmaddr                0x20004f98     0x4  Data  Lc  uip-ds6.o [1]
+locprefix               0x20004fa0     0x4  Data  Lc  uip-ds6.o [1]
+mac_call_sent_callback  0x080107fd    0x12  Code  Gb  mac.o [1]
+mac_dsn                 0x20005ca0     0x1  Data  Lc  framer-802154.o [1]
+mac_pan_id              0x20000930     0x2  Data  Lc  frame802154.o [1]
+main                    0x080113fd    0x7a  Code  Gb  main.o [1]
+malloc                  0x08008af5    0xac  Code  Gb  xxmemxmalloc.o [3]
+memb_alloc              0x080072f9    0x52  Code  Gb  memb.o [1]
+memb_free               0x0800734b    0x56  Code  Gb  memb.o [1]
+memb_init               0x080072dd    0x1c  Code  Gb  memb.o [1]
+memb_inmemb             0x080073a1    0x1a  Code  Gb  memb.o [1]
+memb_numfree            0x080073bd    0x22  Code  Gb  memb.o [1]
+memchr                  0x08008a91          Code  Gb  memchr.o [5]
+metadata_memb           0x20000028     0xc  Data  Lc  csma.o [1]
+metadata_memb_memb_count
+                        0x20005bfc    0x10  Data  Lc  csma.o [1]
+metadata_memb_memb_mem  0x2000550c    0xc0  Data  Lc  csma.o [1]
+mode                    0x20005ca5     0x1  Data  Lc  rpl.o [1]
+my_tag                  0x20004296     0x2  Data  Lc  sicslowpan.o [1]
+nbr                     0x20005c54     0x4  Data  Lc  uip-nd6.o [1]
+nbr_callback            0x080047a5    0x1a  Code  Lc  rpl-dag.o [1]
+nbr_routes              0x200006dc     0x4  Data  Gb  uip-ds6-route.o [1]
+nbr_routes_struct       0x200006cc    0x10  Data  Lc  uip-ds6-route.o [1]
+nbr_table_add_lladdr    0x08004483    0xcc  Code  Gb  nbr-table.o [1]
+nbr_table_allocate      0x0800424b    0xc4  Code  Lc  nbr-table.o [1]
+nbr_table_get_from_lladdr
+                        0x0800454f    0x80  Code  Gb  nbr-table.o [1]
+nbr_table_get_lladdr    0x080046a9    0x2e  Code  Gb  nbr-table.o [1]
+nbr_table_head          0x08004331    0xd2  Code  Gb  nbr-table.o [1]
+nbr_table_keys_list     0x200000f0     0x4  Data  Lc  nbr-table.o [1]
+nbr_table_lock          0x08004633    0x3a  Code  Gb  nbr-table.o [1]
+nbr_table_next          0x08004403    0x80  Code  Gb  nbr-table.o [1]
+nbr_table_register      0x0800430f    0x22  Code  Gb  nbr-table.o [1]
+nbr_table_remove        0x080045cf    0x64  Code  Gb  nbr-table.o [1]
+nbr_table_unlock        0x0800466d    0x3c  Code  Gb  nbr-table.o [1]
+nbr_table_update_lladdr
+                        0x080046d7    0xbc  Code  Gb  nbr-table.o [1]
+nd6_opt_llao            0x20005c50     0x4  Data  Lc  uip-nd6.o [1]
+nd6_opt_offset          0x20005c4c     0x1  Data  Lc  uip-nd6.o [1]
+neighbor_addr_mem       0x20000098     0xc  Data  Lc  nbr-table.o [1]
+neighbor_addr_mem_memb_count
+                        0x20005bd8    0x14  Data  Lc  nbr-table.o [1]
+neighbor_addr_mem_memb_mem
+                        0x2000526c    0xf0  Data  Lc  nbr-table.o [1]
+neighbor_list_list      0x20000034     0x4  Data  Lc  csma.o [1]
+neighbor_memb           0x20000010     0xc  Data  Lc  csma.o [1]
+neighbor_memb_memb_count
+                        0x20005bd6     0x2  Data  Lc  csma.o [1]
+neighbor_memb_memb_mem  0x20005844    0x70  Data  Lc  csma.o [1]
+neighborroutememb       0x200006e4     0xc  Data  Lc  uip-ds6-route.o [1]
+neighborroutememb_memb_count
+                        0x20005b80    0x20  Data  Lc  uip-ds6-route.o [1]
+neighborroutememb_memb_mem
+                        0x2000535c    0xf0  Data  Lc  uip-ds6-route.o [1]
+netstack_init           0x0800f9ed    0x3c  Code  Gb  netstack.o [1]
+nevents                 0x20005915     0x1  Data  Lc  process.o [1]
+new_dio_interval        0x08005d4f    0x58  Code  Lc  rpl-timers.o [1]
+next_dis                0x20005b3c     0x2  Data  Lc  rpl-timers.o [1]
+next_expiration         0x20000054     0x4  Data  Lc  etimer.o [1]
+node_id                 0x20005bd4     0x2  Data  Gb  node-id.o [1]
+node_id_restore         0x0800f9c1    0x2c  Code  Gb  node-id.o [1]
+node_mac                0x20005bcc     0x8  Data  Gb  node-id.o [1]
+notificationlist_list   0x20000710     0x4  Data  Lc  uip-ds6-route.o [1]
+ns_input                0x08002bdd   0x244  Code  Lc  uip-nd6.o [1]
+ns_input_handler        0x20000730     0xc  Data  Lc  uip-nd6.o [1]
+nullrdc_driver          0x08011a94    0x20  Data  Gb  nullrdc.o [1]
+nullsec_driver          0x08011b88    0x10  Data  Gb  nullsec.o [1]
+num_children            0x20005adc     0x4  Data  Lc  rpl-nbr-policy.o [1]
+num_parents             0x20005ad8     0x4  Data  Lc  rpl-nbr-policy.o [1]
+num_routes              0x200006e0     0x4  Data  Lc  uip-ds6-route.o [1]
+num_sensors             0x20000341     0x1  Data  Lc  sensors.o [1]
+num_tables              0x200000ec     0x4  Data  Lc  nbr-table.o [1]
+obuf                    0x200059cc    0x50  Data  Lc  xfiles.o [3]
+off                     0x080107bb     0x6  Code  Lc  csma.o [1]
+off                     0x080110d7     0xe  Code  Lc  nullrdc.o [1]
+on                      0x080107b5     0x6  Code  Lc  csma.o [1]
+on                      0x080110d1     0x6  Code  Lc  nullrdc.o [1]
+others_services_list    0x20000364     0x4  Data  Lc  servreg-hack.o [1]
+output                  0x08009c25   0x218  Code  Lc  sicslowpan.o [1]
+outputfunc              0x20005c94     0x4  Data  Lc  tcpip.o [1]
+own_services_list       0x20000368     0x4  Data  Lc  servreg-hack.o [1]
+pSpiHandle              0x20000124    0x58  Data  Gb  radio_spi.o [1]
+packet_input            0x0801109f    0x32  Code  Lc  nullrdc.o [1]
+packet_is_prepared      0x2000042c     0x4  Data  Lc  spirit1.o [1]
+packet_memb             0x2000001c     0xc  Data  Lc  csma.o [1]
+packet_memb_memb_count  0x20005bec    0x10  Data  Lc  csma.o [1]
+packet_memb_memb_mem    0x2000544c    0xc0  Data  Lc  csma.o [1]
+packet_sent             0x0801040d   0x274  Code  Lc  csma.o [1]
+packet_sent             0x08009bf9    0x26  Code  Lc  sicslowpan.o [1]
+packetbuf_addr          0x08005cdd     0xa  Code  Gb  packetbuf.o [1]
+packetbuf_addrs         0x20005674    0x10  Data  Gb  packetbuf.o [1]
+packetbuf_aligned       0x200055f4    0x80  Data  Lc  packetbuf.o [1]
+packetbuf_attr          0x08005cbd     0xa  Code  Gb  packetbuf.o [1]
+packetbuf_attr_copyfrom
+                        0x08005c8b    0x26  Code  Gb  packetbuf.o [1]
+packetbuf_attr_copyto   0x08005c67    0x24  Code  Gb  packetbuf.o [1]
+packetbuf_attrs         0x200055d4    0x20  Data  Gb  packetbuf.o [1]
+packetbuf_clear         0x08005ad9    0x34  Code  Gb  packetbuf.o [1]
+packetbuf_copyfrom      0x08005b0d    0x4c  Code  Gb  packetbuf.o [1]
+packetbuf_copyto        0x08005b59    0x3c  Code  Gb  packetbuf.o [1]
+packetbuf_datalen       0x08005c4f     0x6  Code  Gb  packetbuf.o [1]
+packetbuf_dataptr       0x08005c3b    0x10  Code  Gb  packetbuf.o [1]
+packetbuf_hdr_len       0x20004294     0x1  Data  Lc  sicslowpan.o [1]
+packetbuf_hdralloc      0x08005b95    0x86  Code  Gb  packetbuf.o [1]
+packetbuf_hdrptr        0x08005c4b     0x4  Code  Gb  packetbuf.o [1]
+packetbuf_hdrreduce     0x08005c1b    0x1a  Code  Gb  packetbuf.o [1]
+packetbuf_holds_broadcast
+                        0x08005ce7     0x8  Code  Gb  packetbuf.o [1]
+packetbuf_payload_len   0x2000429c     0x4  Data  Lc  sicslowpan.o [1]
+packetbuf_ptr           0x20004298     0x4  Data  Lc  sicslowpan.o [1]
+packetbuf_set_addr      0x08005cc7    0x16  Code  Gb  packetbuf.o [1]
+packetbuf_set_attr      0x08005cb1     0xc  Code  Gb  packetbuf.o [1]
+packetbuf_set_datalen   0x08005c35     0x6  Code  Gb  packetbuf.o [1]
+packetbuf_totlen        0x08005c55    0x12  Code  Gb  packetbuf.o [1]
+parent_has_usable_link  0x08010b51    0x1c  Code  Lc  rpl-mrhof.o [1]
+parent_link_metric      0x08010a8d    0x16  Code  Lc  rpl-mrhof.o [1]
+parent_path_cost        0x08010aa3    0x40  Code  Lc  rpl-mrhof.o [1]
+parse                   0x080109fd    0x8e  Code  Lc  framer-802154.o [1]
+parse_incoming_packet   0x0800fcf3    0xae  Code  Lc  servreg-hack.o [1]
+periodic                0x0800725b    0x28  Code  Lc  link-stats.o [1]
+periodic                0x2000596c    0x10  Data  Lc  tcpip.o [1]
+periodic_timer          0x20000078    0x20  Data  Gb  link-stats.o [1]
+periodic_timer          0x20005ae8    0x20  Data  Lc  rpl-nbr-policy.o [1]
+periodic_timer          0x20005b40    0x20  Data  Lc  rpl-timers.o [1]
+poll_requested          0x20005918     0x1  Data  Lc  process.o [1]
+print_parameters        0x0800f4fb   0x150  Code  Lc  contiki-spirit1-main.o [1]
+printf                  0x080079b9    0x24  Code  Gb  printf.o [3]
+process_alloc_event     0x08006bb5    0x10  Code  Gb  process.o [1]
+process_current         0x20005920     0x4  Data  Gb  process.o [1]
+process_init            0x08006d5b    0x1c  Code  Gb  process.o [1]
+process_list            0x2000591c     0x4  Data  Gb  process.o [1]
+process_maxevents       0x20005917     0x1  Data  Gb  process.o [1]
+process_poll            0x08006f17    0x1a  Code  Gb  process.o [1]
+process_post            0x08006eb7    0x4e  Code  Gb  process.o [1]
+process_post_synch      0x08006f05    0x12  Code  Gb  process.o [1]
+process_run             0x08006d79   0x13e  Code  Gb  process.o [1]
+process_start           0x08006bc5    0x7c  Code  Gb  process.o [1]
+process_thread_ctimer_process
+                        0x0800782d    0xb0  Code  Lc  ctimer.o [1]
+process_thread_etimer_process
+                        0x08003e25    0xf8  Code  Lc  etimer.o [1]
+process_thread_sensors_process
+                        0x0800db7d    0xb8  Code  Lc  sensors.o [1]
+process_thread_sensors_process::events
+                        0x20000348     0x4  Data  Lc  sensors.o [1]
+process_thread_sensors_process::i
+                        0x20000344     0x4  Data  Lc  sensors.o [1]
+process_thread_servreg_hack_process
+                        0x0800fda1    0xa2  Code  Lc  servreg-hack.o [1]
+process_thread_servreg_hack_process::outconn
+                        0x20000360     0x4  Data  Lc  servreg-hack.o [1]
+process_thread_servreg_hack_process::periodic
+                        0x20000398    0x10  Data  Lc  servreg-hack.o [1]
+process_thread_simple_udp_process
+                        0x08010f09    0x9e  Code  Lc  simple-udp.o [1]
+process_thread_spirit_radio_process
+                        0x0800d939    0xa8  Code  Lc  spirit1.o [1]
+process_thread_tcpip_process
+                        0x080036ed    0x74  Code  Lc  tcpip.o [1]
+process_thread_unicast_receiver_process
+                        0x08010d31    0xfc  Code  Lc  unicast-receiver.o [1]
+purge_registrations     0x0800fa45    0x74  Code  Lc  servreg-hack.o [1]
+putchar                 0x08011bf9     0xc  Code  Gb  putchar.o [3]
+queuebuf_attr           0x0800a26d     0xc  Code  Gb  queuebuf.o [1]
+queuebuf_free           0x0800a20d    0x2e  Code  Gb  queuebuf.o [1]
+queuebuf_init           0x0800a1a5    0x16  Code  Gb  queuebuf.o [1]
+queuebuf_new_from_packetbuf
+                        0x0800a1c1    0x40  Code  Gb  queuebuf.o [1]
+queuebuf_numfree        0x0800a1bb     0x6  Code  Gb  queuebuf.o [1]
+queuebuf_to_packetbuf   0x0800a23b    0x2c  Code  Gb  queuebuf.o [1]
+queuebuf_update_attr_from_packetbuf
+                        0x0800a201     0xc  Code  Gb  queuebuf.o [1]
+radio_sensor            0x08011ba0    0x10  Data  Gb  radio-sensor.o [1]
+rand                    0x08007515    0xe0  Code  Gb  rand.o [3]
+random_init             0x08003ddb     0x4  Code  Gb  random.o [1]
+random_rand             0x08003ddf     0xe  Code  Gb  random.o [1]
+rank_via_parent         0x08010ae3    0x6e  Code  Lc  rpl-mrhof.o [1]
+receiver                0x08010d05    0x2c  Code  Lc  unicast-receiver.o [1]
+receiving_packet        0x200003bc     0x1  Data  Lc  spirit1.o [1]
+registrations           0x2000036c     0xc  Data  Lc  servreg-hack.o [1]
+registrations_memb_count
+                        0x20005c2c    0x10  Data  Lc  servreg-hack.o [1]
+registrations_memb_mem  0x20004c78   0x200  Data  Lc  servreg-hack.o [1]
+remove                  0x08011741    0x16  Code  Gb  remove.o [6]
+remove_ext_hdr          0x08000297    0x50  Code  Gb  uip6.o [1]
+remove_key              0x080041bd    0x8e  Code  Lc  nbr-table.o [1]
+reset                   0x08010a8b     0x2  Code  Lc  rpl-mrhof.o [1]
+rm_routelist            0x08003bd7    0x32  Code  Lc  uip-ds6-route.o [1]
+rm_routelist_callback   0x08003c09     0x2  Code  Lc  uip-ds6-route.o [1]
+round                   0x0800c541    0x44  Code  Gb  round.o [4]
+routelist_list          0x200006f0     0x4  Data  Lc  uip-ds6-route.o [1]
+routememb               0x200006f4     0xc  Data  Lc  uip-ds6-route.o [1]
+routememb_memb_count    0x20005ba0    0x20  Data  Lc  uip-ds6-route.o [1]
+routememb_memb_mem      0x200047c8   0x4b0  Data  Lc  uip-ds6-route.o [1]
+rpl_add_dag             0x080053a5   0x190  Code  Gb  rpl-dag.o [1]
+rpl_add_parent          0x08004cef    0x34  Code  Gb  rpl-dag.o [1]
+rpl_add_route           0x08007003    0x38  Code  Gb  rpl.o [1]
+rpl_alloc_dag           0x08004c0f    0x76  Code  Gb  rpl-dag.o [1]
+rpl_alloc_instance      0x08004bc5    0x4a  Code  Gb  rpl-dag.o [1]
+rpl_dag_init            0x080047bf    0x10  Code  Gb  rpl-dag.o [1]
+rpl_find_parent         0x08004d23    0x28  Code  Gb  rpl-dag.o [1]
+rpl_find_parent_any_dag
+                        0x08004d4b    0x30  Code  Gb  rpl-dag.o [1]
+rpl_free_dag            0x08004c85    0x6a  Code  Gb  rpl-dag.o [1]
+rpl_get_any_dag         0x080051e5    0x14  Code  Gb  rpl-dag.o [1]
+rpl_get_dag             0x08005199    0x4c  Code  Gb  rpl-dag.o [1]
+rpl_get_instance        0x080051f9    0x18  Code  Gb  rpl-dag.o [1]
+rpl_get_mode            0x08006f39     0x6  Code  Gb  rpl.o [1]
+rpl_get_parent          0x080047cf     0xe  Code  Gb  rpl-dag.o [1]
+rpl_get_parent_ipaddr   0x08004801    0x1c  Code  Gb  rpl-dag.o [1]
+rpl_get_parent_link_stats
+                        0x0800481d    0x1c  Code  Gb  rpl-dag.o [1]
+rpl_icmp6_register_handlers
+                        0x08006b71    0x26  Code  Gb  rpl-icmp6.o [1]
+rpl_icmp6_update_nbr_table
+                        0x0800618b    0x2a  Code  Gb  rpl-icmp6.o [1]
+rpl_init                0x08007111    0x3e  Code  Gb  rpl.o [1]
+rpl_ipv6_neighbor_callback
+                        0x08007083    0x36  Code  Gb  rpl.o [1]
+rpl_join_instance       0x08005219   0x18c  Code  Gb  rpl-dag.o [1]
+rpl_link_neighbor_callback
+                        0x0800703b    0x48  Code  Gb  rpl.o [1]
+rpl_local_repair        0x08005611    0xda  Code  Gb  rpl-dag.o [1]
+rpl_move_parent         0x08005111    0x88  Code  Gb  rpl-dag.o [1]
+rpl_mrhof               0x2000031c    0x24  Data  Gb  rpl-mrhof.o [1]
+rpl_nbr_policy_find_removable
+                        0x08007743    0x7a  Code  Gb  rpl-nbr-policy.o [1]
+rpl_nullify_parent      0x08005099    0x70  Code  Gb  rpl-dag.o [1]
+rpl_parent_is_fresh     0x08004839    0x20  Code  Gb  rpl-dag.o [1]
+rpl_parent_is_reachable
+                        0x08004859    0x4e  Code  Gb  rpl-dag.o [1]
+rpl_parents             0x200002e4     0x4  Data  Gb  rpl-dag.o [1]
+rpl_parents_struct      0x20000180    0x10  Data  Lc  rpl-dag.o [1]
+rpl_process_dio         0x080057c1   0x30e  Code  Gb  rpl-dag.o [1]
+rpl_process_parent_event
+                        0x08005737    0x8a  Code  Gb  rpl-dag.o [1]
+rpl_purge_dags          0x080070b9    0x58  Code  Gb  rpl.o [1]
+rpl_purge_routes        0x08006f3f    0x6c  Code  Gb  rpl.o [1]
+rpl_rank_via_parent     0x080047dd    0x24  Code  Gb  rpl-dag.o [1]
+rpl_recalculate_ranks   0x080056f1    0x46  Code  Gb  rpl-dag.o [1]
+rpl_remove_header       0x0800318d    0x6e  Code  Gb  rpl-ext-header.o [1]
+rpl_remove_routes       0x08006fab    0x24  Code  Gb  rpl.o [1]
+rpl_remove_routes_by_nexthop
+                        0x08006fcf    0x34  Code  Gb  rpl.o [1]
+rpl_repair_root         0x08004a65    0x56  Code  Gb  rpl-dag.o [1]
+rpl_reset_dio_timer     0x08005e5d    0x6e  Code  Gb  rpl-timers.o [1]
+rpl_reset_periodic_timer
+                        0x08005e2d    0x30  Code  Gb  rpl-timers.o [1]
+rpl_schedule_dao        0x08005f6b    0x50  Code  Gb  rpl-timers.o [1]
+rpl_schedule_probing    0x0800610d    0x46  Code  Gb  rpl-timers.o [1]
+rpl_schedule_unicast_dio_immediately
+                        0x08005fd7    0x18  Code  Gb  rpl-timers.o [1]
+rpl_select_dag          0x08004d7b   0x1b6  Code  Gb  rpl-dag.o [1]
+rpl_select_parent       0x08004fa7    0xf2  Code  Gb  rpl-dag.o [1]
+rpl_set_prefix          0x08004b55    0x70  Code  Gb  rpl-dag.o [1]
+rpl_set_root            0x080048d9   0x18c  Code  Gb  rpl-dag.o [1]
+rpl_update_header       0x080031fb    0x6a  Code  Gb  rpl-ext-header.o [1]
+rpl_verify_hbh_header   0x08002f31    0xf2  Code  Gb  rpl-ext-header.o [1]
+rtimer_arch_init        0x0800de11    0x8c  Code  Gb  rtimer-arch.o [1]
+rtimer_arch_now         0x0800de9d     0x8  Code  Gb  rtimer-arch.o [1]
+rtimer_clock            0x20005c88     0x4  Data  Gb  rtimer-arch.o [1]
+rtimer_init             0x0800f9bd     0x4  Code  Gb  rtimer.o [1]
+rx_timeout              0x200003bd     0x1  Data  Gb  spirit1.o [1]
+s                       0x20005924    0x44  Data  Lc  tcpip.o [1]
+sFileInfo               0x200057c4    0x80  Data  Lc  XShHandles.o [3]
+s_cCommunicationState   0x20000448     0x1  Data  Lc  SPIRIT_Management.o [1]
+s_lXtalFrequency        0x20000454     0x4  Data  Lc  SPIRIT_Radio.o [1]
+s_nDesiredFrequency     0x2000044c     0x4  Data  Lc  SPIRIT_Management.o [1]
+s_vectcBHalfFactor      0x0800bd24     0x4  Data  Lc  SPIRIT_Management.o [1]
+s_vectcBHalfFactor      0x0800b204     0x4  Data  Lc  SPIRIT_Radio.o [1]
+s_vectcBandRegValue     0x0800bd20     0x4  Data  Lc  SPIRIT_Management.o [1]
+s_vectcBandRegValue     0x0800aa20     0x4  Data  Lc  SPIRIT_Radio.o [1]
+s_vectnBandwidth26M     0x0800ad64    0xb4  Data  Lc  SPIRIT_Radio.o [1]
+s_vectnVCOFreq          0x0800a7f0    0x20  Data  Lc  SPIRIT_Radio.o [1]
+schedule_transmission   0x080103c1    0x4a  Code  Lc  csma.o [1]
+seconds                 0x20005c5c     0x4  Data  Gb  clock.o [1]
+send                    0x08011a33    0x20  Code  Lc  nullsec.o [1]
+send_list               0x08011029    0x76  Code  Lc  nullrdc.o [1]
+send_one_packet         0x08010fc9    0x5e  Code  Lc  nullrdc.o [1]
+send_packet             0x08010681   0x12e  Code  Lc  csma.o [1]
+send_packet             0x08011027     0x2  Code  Lc  nullrdc.o [1]
+send_packet::initialized
+                        0x2000000c     0x1  Data  Lc  csma.o [1]
+send_packet::seqno      0x2000000e     0x2  Data  Lc  csma.o [1]
+send_udp_packet         0x0800fba7   0x14c  Code  Lc  servreg-hack.o [1]
+sendtimer               0x20000388    0x10  Data  Lc  servreg-hack.o [1]
+sensors                 0x20000000     0xc  Data  Gb  contiki-spirit1-main.o [1]
+sensors_changed         0x0800db29    0x52  Code  Gb  sensors.o [1]
+sensors_event           0x20000340     0x1  Data  Gb  sensors.o [1]
+sensors_flags           0x20005c80     0x4  Data  Gb  contiki-spirit1-main.o [1]
+sensors_process         0x2000034c    0x10  Data  Gb  sensors.o [1]
+servreg_hack_init       0x0800fab9    0x32  Code  Gb  servreg-hack.o [1]
+servreg_hack_process    0x20000378    0x10  Data  Gb  servreg-hack.o [1]
+servreg_hack_register   0x0800faed    0xba  Code  Gb  servreg-hack.o [1]
+set32                   0x08006175    0x16  Code  Lc  rpl-icmp6.o [1]
+set_dao_lifetime_timer  0x08005ecb    0x4e  Code  Lc  rpl-timers.o [1]
+set_global_address::ipaddr
+                        0x20005b08    0x10  Data  Lc  unicast-receiver.o [1]
+set_packet_attrs        0x0800900f    0x46  Code  Lc  sicslowpan.o [1]
+sicslowpan_driver       0x08011bd4     0xc  Data  Gb  sicslowpan.o [1]
+sicslowpan_init         0x0800a13f    0x2c  Code  Gb  sicslowpan.o [1]
+simple_udp_process      0x200003ac    0x10  Data  Gb  simple-udp.o [1]
+simple_udp_register     0x08010e99    0x70  Code  Gb  simple-udp.o [1]
+spirit1_arch_refresh_status
+                        0x0800dd29    0xe8  Code  Gb  spirit1-arch.o [1]
+spirit1_interrupt_callback
+                        0x0800d9e1    0xe0  Code  Gb  spirit1.o [1]
+spirit_on               0x200003c4     0x4  Data  Lc  spirit1.o [1]
+spirit_radio_channel_clear
+                        0x0800d70d    0xca  Code  Lc  spirit1.o [1]
+spirit_radio_driver     0x0801196c    0x38  Data  Gb  spirit1.o [1]
+spirit_radio_init       0x0800d381   0x11a  Code  Lc  spirit1.o [1]
+spirit_radio_off        0x0800d7ed    0x98  Code  Lc  spirit1.o [1]
+spirit_radio_on         0x0800d885    0xb2  Code  Lc  spirit1.o [1]
+spirit_radio_pending_packet
+                        0x0800d7dd     0xe  Code  Lc  spirit1.o [1]
+spirit_radio_prepare    0x0800d49b    0x4a  Code  Lc  spirit1.o [1]
+spirit_radio_process    0x20000438    0x10  Data  Gb  spirit1.o [1]
+spirit_radio_read       0x0800d649    0xc4  Code  Lc  spirit1.o [1]
+spirit_radio_receiving_packet
+                        0x0800d7d7     0x6  Code  Lc  spirit1.o [1]
+spirit_radio_send       0x0800d5fb    0x4e  Code  Lc  spirit1.o [1]
+spirit_radio_transmit   0x0800d4e5   0x116  Code  Lc  spirit1.o [1]
+spirit_rxbuf            0x200003c8    0x64  Data  Lc  spirit1.o [1]
+spirit_set_ready_state  0x0800d32d    0x50  Code  Gb  spirit1.o [1]
+spirit_txbuf            0x200003be     0x1  Data  Lc  spirit1.o [1]
+srand                   0x080074f5    0x20  Code  Gb  srand.o [3]
+started                 0x2000035c     0x1  Data  Lc  servreg-hack.o [1]
+started                 0x200003a8     0x1  Data  Lc  simple-udp.o [1]
+status                  0x080119df     0xc  Code  Lc  button-sensor.o [1]
+status                  0x0801182b     0xc  Code  Lc  radio-sensor.o [1]
+stimer_expired          0x0800405f    0x1c  Code  Gb  stimer.o [1]
+stimer_set              0x08004051     0xe  Code  Gb  stimer.o [1]
+store_fragment          0x08008d63    0x7e  Code  Lc  sicslowpan.o [1]
+strchr                  0x08008a41          Code  Gb  strchr.o [5]
+strlen                  0x08008a59          Code  Gb  strlen.o [5]
+tcpip_event             0x20005968     0x1  Data  Gb  tcpip.o [1]
+tcpip_input             0x08003533    0x1c  Code  Gb  tcpip.o [1]
+tcpip_ipv6_output       0x0800354f    0xca  Code  Gb  tcpip.o [1]
+tcpip_process           0x200006a8    0x10  Data  Gb  tcpip.o [1]
+tcpip_set_outputfunc    0x0800327d     0x8  Code  Gb  tcpip.o [1]
+tcpip_uipcall           0x08003619    0xd4  Code  Gb  tcpip.o [1]
+ticks                   0x20005c60     0x4  Data  Gb  clock.o [1]
+timer_expired           0x08007661    0x18  Code  Gb  timer.o [1]
+timer_init              0x20005ae4     0x4  Data  Lc  rpl-nbr-policy.o [1]
+timer_reset             0x0800764b     0xa  Code  Gb  timer.o [1]
+timer_restart           0x08007655     0xc  Code  Gb  timer.o [1]
+timer_set               0x0800763d     0xe  Code  Gb  timer.o [1]
+timerlist               0x20000050     0x4  Data  Lc  etimer.o [1]
+tmp_ipaddr              0x20005c3c    0x10  Data  Lc  uip-icmp6.o [1]
+transmit_packet_list    0x0801039d    0x24  Code  Lc  csma.o [1]
+ttl_values              0x0800a1a0     0x4  Data  Lc  sicslowpan.o [1]
+udp_broadcast_new       0x0800329b    0x40  Code  Gb  tcpip.o [1]
+udp_new                 0x08003285    0x16  Code  Gb  tcpip.o [1]
+uip_acc32               0x20003ba0     0x4  Data  Gb  uip6.o [1]
+uip_add32               0x08000125    0x6c  Code  Gb  uip6.o [1]
+uip_aligned_buf         0x20003438   0x514  Data  Gb  uip6.o [1]
+uip_appdata             0x20003bb4     0x4  Data  Gb  uip6.o [1]
+uip_conn                0x20003bbc     0x4  Data  Gb  uip6.o [1]
+uip_conns               0x2000394c    0xc0  Data  Gb  uip6.o [1]
+uip_debug_ipaddr_print  0x080073e1    0xb0  Code  Gb  uip-debug.o [1]
+uip_ds6_addr_add        0x080020ef   0x1e8  Code  Gb  uip-ds6.o [1]
+uip_ds6_addr_lookup     0x080023a1    0x8a  Code  Gb  uip-ds6.o [1]
+uip_ds6_addr_rm         0x080022d7    0xca  Code  Gb  uip-ds6.o [1]
+uip_ds6_addr_size       0x20004f90     0x1  Data  Gb  uip-ds6.o [1]
+uip_ds6_defrt_add       0x08003c0d    0x9a  Code  Gb  uip-ds6-route.o [1]
+uip_ds6_defrt_choose    0x08003d0d    0x36  Code  Gb  uip-ds6-route.o [1]
+uip_ds6_defrt_periodic  0x08003d45    0x82  Code  Gb  uip-ds6-route.o [1]
+uip_ds6_defrt_rm        0x08003ca9    0x62  Code  Gb  uip-ds6-route.o [1]
+uip_ds6_get_link_local  0x0800242b    0xa0  Code  Gb  uip-ds6.o [1]
+uip_ds6_if              0x20004e88   0x108  Data  Gb  uip-ds6.o [1]
+uip_ds6_init            0x08001b09   0x472  Code  Gb  uip-ds6.o [1]
+uip_ds6_is_addr_onlink  0x0800209d    0x52  Code  Gb  uip-ds6.o [1]
+uip_ds6_link_neighbor_callback
+                        0x080038e9    0x30  Code  Gb  uip-ds6-nbr.o [1]
+uip_ds6_maddr_add       0x080024cb    0xf4  Code  Gb  uip-ds6.o [1]
+uip_ds6_maddr_lookup    0x080025c9    0xdc  Code  Gb  uip-ds6.o [1]
+uip_ds6_nbr_add         0x08003817    0x2e  Code  Gb  uip-ds6-nbr.o [1]
+uip_ds6_nbr_get_ll      0x08003861     0xa  Code  Gb  uip-ds6-nbr.o [1]
+uip_ds6_nbr_ipaddr_from_lladdr
+                        0x0800389f     0xa  Code  Gb  uip-ds6-nbr.o [1]
+uip_ds6_nbr_lladdr_from_ipaddr
+                        0x080038a9    0x40  Code  Gb  uip-ds6-nbr.o [1]
+uip_ds6_nbr_lookup      0x0800386b    0x34  Code  Gb  uip-ds6-nbr.o [1]
+uip_ds6_nbr_rm          0x08003845    0x1c  Code  Gb  uip-ds6-nbr.o [1]
+uip_ds6_neighbors_init  0x080037fd    0x1a  Code  Gb  uip-ds6-nbr.o [1]
+uip_ds6_netif_addr_list_offset
+                        0x20004f91     0x1  Data  Gb  uip-ds6.o [1]
+uip_ds6_periodic        0x08001f7d   0x120  Code  Gb  uip-ds6.o [1]
+uip_ds6_prefix_list     0x20004fb4    0x60  Data  Gb  uip-ds6.o [1]
+uip_ds6_route_add       0x08003a1d   0x10e  Code  Gb  uip-ds6-route.o [1]
+uip_ds6_route_head      0x0800397d     0x8  Code  Gb  uip-ds6-route.o [1]
+uip_ds6_route_init      0x08003921    0x3c  Code  Gb  uip-ds6-route.o [1]
+uip_ds6_route_is_nexthop
+                        0x0800398f    0x1e  Code  Gb  uip-ds6-route.o [1]
+uip_ds6_route_lookup    0x080039ad    0x70  Code  Gb  uip-ds6-route.o [1]
+uip_ds6_route_next      0x08003985     0xa  Code  Gb  uip-ds6-route.o [1]
+uip_ds6_route_nexthop   0x0800395d    0x20  Code  Gb  uip-ds6-route.o [1]
+uip_ds6_route_rm        0x08003b2b    0xac  Code  Gb  uip-ds6-route.o [1]
+uip_ds6_select_src      0x080026a9   0x1b2  Code  Gb  uip-ds6.o [1]
+uip_ds6_set_addr_iid    0x0800285b    0x18  Code  Gb  uip-ds6.o [1]
+uip_ds6_timer_periodic  0x20004fa4    0x10  Data  Gb  uip-ds6.o [1]
+uip_ext_bitmap          0x20003ba4     0x1  Data  Gb  uip6.o [1]
+uip_ext_len             0x20003ba5     0x1  Data  Gb  uip6.o [1]
+uip_ext_opt_offset      0x20003ba6     0x1  Data  Gb  uip6.o [1]
+uip_flags               0x20003ba7     0x1  Data  Gb  uip6.o [1]
+uip_htonl               0x08001aeb    0x1a  Code  Gb  uip6.o [1]
+uip_icmp6_error_output  0x08002969   0x136  Code  Gb  uip-icmp6.o [1]
+uip_icmp6_init          0x08002ba5    0x1a  Code  Gb  uip-icmp6.o [1]
+uip_icmp6_input         0x08002879    0x3a  Code  Gb  uip-icmp6.o [1]
+uip_icmp6_register_input_handler
+                        0x080028b3     0x8  Code  Gb  uip-icmp6.o [1]
+uip_icmp6_send          0x08002a9f    0x70  Code  Gb  uip-icmp6.o [1]
+uip_icmp6chksum         0x08000191    0xb0  Code  Gb  uip6.o [1]
+uip_init                0x08000241    0x56  Code  Gb  uip6.o [1]
+uip_len                 0x20003ba8     0x2  Data  Gb  uip6.o [1]
+uip_listenports         0x20003b8c    0x10  Data  Gb  uip6.o [1]
+uip_lladdr              0x20005c6c     0x8  Data  Gb  uip6.o [1]
+uip_nd6_init            0x08002e21     0x6  Code  Gb  uip-nd6.o [1]
+uip_next_hdr            0x20003bb0     0x4  Data  Gb  uip6.o [1]
+uip_process             0x080004c1  0x162a  Code  Gb  uip6.o [1]
+uip_sappdata            0x20003bb8     0x4  Data  Gb  uip6.o [1]
+uip_slen                0x20003baa     0x2  Data  Gb  uip6.o [1]
+uip_udp_conn            0x20003bc0     0x4  Data  Gb  uip6.o [1]
+uip_udp_conns           0x20003a0c   0x180  Data  Gb  uip6.o [1]
+uip_udp_new             0x080002e9    0xc2  Code  Gb  uip6.o [1]
+uip_udp_packet_send     0x0800feed    0x30  Code  Gb  uip-udp-packet.o [1]
+uip_unlisten            0x080003ab    0x5e  Code  Gb  uip6.o [1]
+unc_ctxconf             0x0800a194     0x4  Data  Gb  sicslowpan.o [1]
+unc_llconf              0x0800a190     0x4  Data  Gb  sicslowpan.o [1]
+unc_mxconf              0x0800a198     0x4  Data  Gb  sicslowpan.o [1]
+uncomp_hdr_len          0x20004295     0x1  Data  Lc  sicslowpan.o [1]
+uncompress_addr         0x08009055    0x78  Code  Lc  sicslowpan.o [1]
+uncompress_hdr_iphc     0x0800977d   0x47c  Code  Lc  sicslowpan.o [1]
+unicast_connection      0x20005b18    0x24  Data  Lc  unicast-receiver.o [1]
+unicast_receiver_process
+                        0x2000073c    0x10  Data  Gb  unicast-receiver.o [1]
+update_hbh_header       0x08003023    0xc6  Code  Lc  rpl-ext-header.o [1]
+update_metric_container
+                        0x08010cfd     0x6  Code  Lc  rpl-mrhof.o [1]
+update_nbr              0x0800768d    0xb6  Code  Lc  rpl-nbr-policy.o [1]
+update_time             0x08003ded    0x38  Code  Lc  etimer.o [1]
+used_map                0x200000a4    0x14  Data  Lc  nbr-table.o [1]
+uwTick                  0x20005c90     0x4  Data  Gb  stm32l1xx_hal.o [1]
+value                   0x080119a5     0x6  Code  Lc  button-sensor.o [1]
+value                   0x080117d1    0x3e  Code  Lc  radio-sensor.o [1]
+watchdog_init           0x0800a279     0x2  Code  Gb  watchdog.o [1]
+watchdog_periodic       0x0800a27d     0x2  Code  Gb  watchdog.o [1]
+watchdog_start          0x0800a27b     0x2  Code  Gb  watchdog.o [1]
+worst_rank              0x20005ad4     0x2  Data  Lc  rpl-nbr-policy.o [1]
+worst_rank_nbr          0x20005ae0     0x4  Data  Lc  rpl-nbr-policy.o [1]
+xDoVcoCalibrationWA     0x20000450     0x1  Data  Lc  SPIRIT_Radio.o [1]
+
+
+[1] = C:\Users\Sabooh\Documents\GitHub\sprtmodule\Projects\Multi\Applications\Contiki\Udp-receiver\EWARM\STM32L152RE-Nucleo\STM32L152RE_Nucleo\Obj
+[2] = command line
+[3] = dl7M_tlf.a
+[4] = m7M_tl.a
+[5] = rt7M_tl.a
+[6] = shb_l.a
+
+  72 570 bytes of readonly  code memory
+     924 bytes of readonly  data memory
+  23 713 bytes of readwrite data memory
+
+Errors: none
+Warnings: none

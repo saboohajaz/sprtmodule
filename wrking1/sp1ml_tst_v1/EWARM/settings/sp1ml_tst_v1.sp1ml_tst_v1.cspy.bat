@@ -25,7 +25,7 @@ if not "%~1" == "" goto debugFile
 
 @echo on 
 
-"C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.5\common\bin\cspybat" -f "C:\Users\Sabooh\Documents\ST\sp1ml_tst_v1\EWARM\settings\sp1ml_tst_v1.sp1ml_tst_v1.general.xcl" --backend -f "C:\Users\Sabooh\Documents\ST\sp1ml_tst_v1\EWARM\settings\sp1ml_tst_v1.sp1ml_tst_v1.driver.xcl" 
+"C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.5\common\bin\cspybat" -f "C:\Users\Sabooh\Documents\GitHub\sprtmodule\wrking1\sp1ml_tst_v1\EWARM\settings\sp1ml_tst_v1.sp1ml_tst_v1.general.xcl" --backend -f "C:\Users\Sabooh\Documents\GitHub\sprtmodule\wrking1\sp1ml_tst_v1\EWARM\settings\sp1ml_tst_v1.sp1ml_tst_v1.driver.xcl" 
 
 @echo off 
 goto end 
@@ -34,7 +34,7 @@ goto end
 
 @echo on 
 
-"C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.5\common\bin\cspybat" -f "C:\Users\Sabooh\Documents\ST\sp1ml_tst_v1\EWARM\settings\sp1ml_tst_v1.sp1ml_tst_v1.general.xcl" "--debug_file=%~1" --backend -f "C:\Users\Sabooh\Documents\ST\sp1ml_tst_v1\EWARM\settings\sp1ml_tst_v1.sp1ml_tst_v1.driver.xcl" 
+"C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.5\common\bin\cspybat" -f "C:\Users\Sabooh\Documents\GitHub\sprtmodule\wrking1\sp1ml_tst_v1\EWARM\settings\sp1ml_tst_v1.sp1ml_tst_v1.general.xcl" "--debug_file=%~1" --backend -f "C:\Users\Sabooh\Documents\GitHub\sprtmodule\wrking1\sp1ml_tst_v1\EWARM\settings\sp1ml_tst_v1.sp1ml_tst_v1.driver.xcl" 
 
 @echo off 
 :end
